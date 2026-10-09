@@ -1,0 +1,35 @@
+{
+  "slug": "2026-10-12-diwali-fire-ready",
+  "postOn": "2026-10-12",
+  "slot": "Reels Studio v3 run, Mon 12 Oct 2026 08:24 IST",
+  "status": "queued",
+  "theme": "(f) seasonal — Diwali fire-ready",
+  "subjectTheme": "Diwali fire-ready",
+  "preparedBy": "Cowork session 09 Oct 2026 (owner-authorised; do not publish before postOn)",
+  "brief": "studio/brief-2026-10-12-diwali-fire-ready.json",
+  "flowClipsDir": "flow/2026-10-12-diwali-fire-ready",
+  "flowClips": ["clip-01.mp4", "clip-02.mp4", "clip-03.mp4", "clip-04.mp4", "clip-05.mp4", "clip-06.mp4", "clip-07.mp4"],
+  "fallback": {
+    "note": "Standard gradient render, verified 09 Oct 2026 (1080x1920, 33.0 s, 24 fps, H.264+AAC bed, 3.0 MB). Already uploaded to ASZ One; publish by id, no re-upload needed.",
+    "video": "reels/2026-10-12-diwali-fire-ready.mp4",
+    "cover": "covers/2026-10-12-diwali-fire-ready.jpg",
+    "assetId": "cmv18awtk00lt1sm6hvk5jyh9",
+    "coverAssetId": "cmv18aycf00lu1sm6byd6nwao",
+    "captionStoredOnAsset": true
+  },
+  "flowVersion": {
+    "note": "Filled in by whoever assembles the Flow version (this session, or the Monday run). Once assetId is set here, the Monday run publishes THIS, not the fallback.",
+    "video": null,
+    "cover": null,
+    "assetId": null,
+    "coverAssetId": null
+  },
+  "rule": [
+    "Monday run, before anything else: if status is not 'queued' → ignore this file.",
+    "If flowVersion.assetId is set → dry-run then publish it.",
+    "Else if flowClipsDir contains at least clip-01.mp4 → git pull, run `python3 studio/assemble.py --brief <brief> --clips <flowClipsDir> --out reels/<slug>-flow.mp4 --cover covers/<slug>-flow.jpg --check-dir /tmp/chk`, confirm verified:true and that the logo is on the extracted frames, commit+push, upload both via upload_marketing_asset_from_url (caption = brief.caption + blank line + brief.hashtags), dry-run, publish.",
+    "Else → dry-run then publish fallback.assetId / fallback.coverAssetId.",
+    "After publishing: set status 'posted', add permalink + mediaId + postedAt here, commit+push; email per the usual Step 6 with theme 'Diwali fire-ready'. Leave inbox/ untouched for the next run. Never publish a queued reel twice."
+  ],
+  "posted": null
+}
