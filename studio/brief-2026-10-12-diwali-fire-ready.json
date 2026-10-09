@@ -1,0 +1,52 @@
+{
+  "slug": "2026-10-12-diwali-fire-ready",
+  "date": "2026-10-12",
+  "theme": "(f) seasonal — Diwali fire-ready (Diwali is Sun 8 Nov 2026)",
+  "title": "Diwali is 4 weeks away. Is your society fire-ready?",
+  "footage": "Google Flow (Veo) generated illustrative clips — NOT real site footage. Never describe as a real visit, demo or customer.",
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "logo": "brand/logo.jpg",
+  "footer": "A S SAFETYZONE  ·  assafetyzone.com",
+  "cards": [
+    { "n": 1, "kicker": "4 WEEKS TO DIWALI", "text": "Is your society fire-ready?", "dur": 3.5, "clip": "clip-01.mp4" },
+    { "n": 2, "kicker": "DIYAS & CANDLES", "text": "Keep every flame away from curtains", "dur": 4.0, "clip": "clip-02.mp4" },
+    { "n": 3, "kicker": "CRACKERS", "text": "Open ground only. Never near vehicles or gas", "dur": 4.0, "clip": "clip-03.mp4" },
+    { "n": 4, "kicker": "EXTINGUISHERS", "text": "Gauge in green. Refilled this year?", "dur": 4.0, "clip": "clip-04.mp4" },
+    { "n": 5, "kicker": "HYDRANTS & DUCT DOORS", "text": "Landing valves clear. Duct doors shut.", "dur": 4.0, "clip": "clip-05.mp4" },
+    { "n": 6, "kicker": "REFUGE AREAS & STAIRS", "text": "No storage. No locked exits.", "dur": 4.0, "clip": "clip-06.mp4" },
+    { "n": 7, "kicker": "BEFORE DIWALI", "text": "Book your pre-Diwali fire check", "dur": 4.0, "clip": "clip-07.mp4" }
+  ],
+  "cta": {
+    "dur": 5.5,
+    "headline": "Fire-safe Diwali. Sorted.",
+    "button": "DM us  ·  Link in bio",
+    "line1": "Free site inspection · AMC quote in 30 minutes",
+    "line2": "Mumbai, Thane, Navi Mumbai, Mira-Bhayandar, Vasai-Virar"
+  },
+  "voiceover": "Diwali is four weeks away. Is your society fire-ready? Diyas and candles — keep every flame away from curtains and decorations. Crackers only on open ground, never near parked vehicles or gas cylinders. Check every extinguisher: gauge in the green, refilled this year. Hydrant landing valves clear, fire duct doors shut, refuge areas and staircases free of storage. Book your pre-Diwali fire check now — free site inspection, AMC quote in thirty minutes. DM us, or visit assafetyzone dot com. Have a safe, bright Diwali.",
+  "caption": "Diwali is 4 weeks away 🪔 Is your society fire-ready?\nDiyas away from curtains, crackers on open ground only, extinguisher gauges in the green, hydrant valves and duct doors clear, refuge areas free of storage — a 10-minute walk-round now beats a 2 AM emergency.\nOur team does pre-Diwali fire checks for housing societies across Mumbai, Thane, Navi Mumbai, Mira-Bhayandar and Vasai-Virar — 150+ societies already on AMC.\n\nFree site inspection · AMC quote in 30 minutes → DM us or visit assafetyzone.com (link in bio)",
+  "hashtags": "#DiwaliSafety #FireSafety #FireSafetyMumbai #HousingSociety #SocietySecretary #FireExtinguisher #FireHydrant #FireAMC #DiwaliPrep #SafeDiwali #MumbaiSocieties #Thane #NaviMumbai #MiraBhayandar #FireSafetyTips",
+  "posting": "Mon 12 Oct 2026, 08:24 IST (scheduled Reels Studio slot). Best organic slot otherwise 8:00 PM IST.",
+  "flow_settings": "Google Flow → New project 'ASZ Diwali reel' → Veo video, aspect ratio 9:16 (portrait), 8 s, 1 output per prompt, highest quality available; download each as MP4; keep native audio.",
+  "flow_prompts": [
+    { "clip": "clip-01.mp4", "prompt": "Vertical 9:16 cinematic shot, a Mumbai high-rise housing society compound at dusk, rows of lit clay diyas along balcony railings and the compound wall, warm fairy lights on the building, slow dolly-in, realistic photography, warm tones, no text, no readable signs, no close-up faces" },
+    { "clip": "clip-02.mp4", "prompt": "Vertical 9:16 close-up, a single lit clay diya on an apartment window sill, a sheer white curtain moving gently in the breeze dangerously close to the flame, shallow depth of field, warm evening light, slow push-in, realistic, no text" },
+    { "clip": "clip-03.mp4", "prompt": "Vertical 9:16, adult hands holding lit sparklers in an open housing-society compound at night, a steel bucket of water and sand on the ground beside them, parked cars far away in the background, festive bokeh lights, realistic, no faces, no text" },
+    { "clip": "clip-04.mp4", "prompt": "Vertical 9:16 macro, a red ABC dry-powder fire extinguisher mounted on a corridor wall of an Indian residential building, pressure gauge needle in the green zone, a technician's gloved hand tapping the gauge and checking the tag, clean modern corridor, realistic, no readable text" },
+    { "clip": "clip-05.mp4", "prompt": "Vertical 9:16, a fire hydrant cabinet in an Indian residential building stairwell with a red landing valve and hose reel, then a steel fire duct door swinging shut, well-lit clean corridor, slow pan, realistic, no text" },
+    { "clip": "clip-06.mp4", "prompt": "Vertical 9:16, a clean, empty refuge floor and open staircase of a modern Indian high-rise housing society, no stored items, green exit sign glowing, a safety inspector in a reflective vest walking through, realistic, no readable text, no logos" },
+    { "clip": "clip-07.mp4", "prompt": "Vertical 9:16, a fire-safety technician in a reflective orange vest and white helmet checking a fire alarm control panel and a ceiling sprinkler head in a housing-society lobby, clipboard in hand, warm Diwali lights visible through the glass door behind, realistic, no readable text, no logos" }
+  ],
+  "shot_list": [
+    "1. Society compound at dusk, diyas on railings — 3.5 s (hook)",
+    "2. Diya on sill, curtain drifting close — 4 s",
+    "3. Sparklers in open compound, water bucket beside — 4 s",
+    "4. Extinguisher gauge in green, gloved hand — 4 s",
+    "5. Hydrant cabinet + duct door closing — 4 s",
+    "6. Clear refuge floor + staircase, inspector walking — 4 s",
+    "7. Technician at alarm panel / sprinkler — 4 s",
+    "8. Logo CTA card — 5.5 s"
+  ]
+}
