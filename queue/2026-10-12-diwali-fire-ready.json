@@ -8,7 +8,15 @@
   "preparedBy": "Cowork session 09 Oct 2026 (owner-authorised; do not publish before postOn)",
   "brief": "studio/brief-2026-10-12-diwali-fire-ready.json",
   "flowClipsDir": "flow/2026-10-12-diwali-fire-ready",
-  "flowClips": ["clip-01.mp4", "clip-02.mp4", "clip-03.mp4", "clip-04.mp4", "clip-05.mp4", "clip-06.mp4", "clip-07.mp4"],
+  "flowClips": [
+    "clip-01.mp4",
+    "clip-02.mp4",
+    "clip-03.mp4",
+    "clip-04.mp4",
+    "clip-05.mp4",
+    "clip-06.mp4",
+    "clip-07.mp4"
+  ],
   "fallback": {
     "note": "Standard gradient render, verified 09 Oct 2026 (1080x1920, 33.0 s, 24 fps, H.264+AAC bed, 3.0 MB). Already uploaded to ASZ One; publish by id, no re-upload needed.",
     "video": "reels/2026-10-12-diwali-fire-ready.mp4",
@@ -31,5 +39,16 @@
     "Else → dry-run then publish fallback.assetId / fallback.coverAssetId.",
     "After publishing: set status 'posted', add permalink + mediaId + postedAt here, commit+push; email per the usual Step 6 with theme 'Diwali fire-ready'. Leave inbox/ untouched for the next run. Never publish a queued reel twice."
   ],
-  "posted": null
+  "posted": null,
+  "attempts": [
+    {
+      "at": "2026-10-12T08:27 IST",
+      "run": "Reels Studio scheduled run",
+      "chosen": "fallback (no Flow clips in flowClipsDir)",
+      "dryRun": "ok — configured:true",
+      "result": "NOT POSTED — publish_instagram_reel(dryRun:false, confirm:true) denied by the scheduled task's permission setting (auto-mode classifier: Real-World Transactions), twice (60 s apart)",
+      "next": "status left 'queued'; owner may publish by id from own Claude app or set the task to Automatically approve",
+      "mail": "Reel ready — Diwali fire-ready — 12 Oct 2026 (Gmail id 1a12e0c60e7d32ce)"
+    }
+  ]
 }
