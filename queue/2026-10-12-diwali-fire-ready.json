@@ -49,6 +49,15 @@
       "result": "NOT POSTED — publish_instagram_reel(dryRun:false, confirm:true) denied by the scheduled task's permission setting (auto-mode classifier: Real-World Transactions), twice (60 s apart)",
       "next": "status left 'queued'; owner may publish by id from own Claude app or set the task to Automatically approve",
       "mail": "Reel ready — Diwali fire-ready — 12 Oct 2026 (Gmail id 1a12e0c60e7d32ce)"
+    },
+    {
+      "at": "2026-10-14T16:40 IST",
+      "run": "Reels Studio scheduled run",
+      "chosen": "fallback (flowClipsDir still has no clip-01.mp4, flowVersion.assetId still null)",
+      "dryRun": "ok — configured:true",
+      "result": "NOT POSTED — publish_instagram_reel(dryRun:false, confirm:true) denied again by the scheduled task's permission setting (auto-mode classifier: Real-World Transactions). Same block as the 12 Oct attempts; not retried a third/fourth time since the cause is the task's approval setting, not a transient Meta error.",
+      "next": "status left 'queued'; owner needs to either publish this reel by asset id from their own Claude app, or set this scheduled task to Automatically approve so the next run can post it",
+      "mail": "Reel ready — Diwali fire-ready — 14 Oct 2026"
     }
   ]
 }
