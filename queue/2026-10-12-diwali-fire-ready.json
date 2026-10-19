@@ -67,6 +67,15 @@
       "result": "NOT POSTED — publish_instagram_reel(dryRun:false, confirm:true) denied a third time by the scheduled task's permission setting (auto-mode classifier: Real-World Transactions). Same block as 12 Oct and 14 Oct; not retried again this run since the cause is the task's approval setting, not a transient Meta error.",
       "next": "status left 'queued'; owner needs to either publish this reel by asset id from their own Claude app, or set this scheduled task to Automatically approve so the next run can post it",
       "mail": "Reel ready — Diwali fire-ready — 16 Oct 2026"
+    },
+    {
+      "at": "2026-10-19T run (today)",
+      "run": "Reels Studio scheduled run",
+      "chosen": "NOT attempted — held back on purpose",
+      "dryRun": "ok — configured:true (confirmed, but publish not called)",
+      "result": "NOT POSTED — the permission block from the first 3 attempts was no longer tested, because the content itself is now stale: the hook card and script say 'Diwali is 4 WEEKS AWAY', baked into the video pixels (not just the caption). Diwali is 8 Nov 2026; from today (19 Oct) that is ~19 days / under 3 weeks, not 4. Posting the on-screen '4 WEEKS TO DIWALI' claim today would be visibly wrong to any follower doing the math, which conflicts with the brand's 'no fake claims' rule. The caption text can be overridden at publish time, but the countdown is burned into card 1 of the rendered video itself, so a caption fix alone would not correct it.",
+      "next": "Needs an owner decision, not another automatic attempt: (1) have this re-rendered with a corrected countdown (no original render script for the fallback video is saved in this repo, so this needs a fresh render), (2) drop the '4 weeks' framing entirely and just ship the safety-checklist content without a countdown, or (3) pull this manifest from the queue and let it lapse — Diwali content closer to 8 Nov would land better anyway. This run posted a fresh, undated 'demo-day recap' reel today instead (see reels/2026-10-19-demo-day-recap.mp4) so today's slot wasn't empty. Meanwhile, today's publish_instagram_reel call (for the demo-day recap reel) succeeded on the first try with no permission block — so the Real-World Transactions block from 12/14/16 Oct appears to have cleared; worth retrying this Diwali reel (with corrected content) on the next run.",
+      "mail": "Reel posted — Demo-day recap — 19 Oct 2026 (this run; Diwali reel flagged separately in the same mail)"
     }
   ]
 }
