@@ -1,0 +1,15 @@
+{
+  "slug": "2026-10-21-extinguisher-gauge-check",
+  "theme": "(a) safety tip — monthly fire extinguisher gauge check",
+  "cards": [
+    { "kind": "hook", "text": "Checked Your Extinguisher's Gauge Lately?", "dur": 3.5 },
+    { "kind": "body", "text": "Monthly Fire Extinguisher Check", "sub": "60 seconds. Zero surprises.", "dur": 3.3 },
+    { "kind": "body", "text": "Step 1: Find the Pressure Gauge", "dur": 3.3 },
+    { "kind": "body", "text": "Green Zone = Ready to Use", "dur": 3.3 },
+    { "kind": "body", "text": "Red or Low? Refill Today", "dur": 3.3 },
+    { "kind": "body", "text": "Check the Pin & Safety Seal", "dur": 3.3 },
+    { "kind": "body", "text": "Check the Last Service Tag", "dur": 3.3 },
+    { "kind": "body", "text": "Keep It Visible, Never Blocked", "dur": 3.3 },
+    { "kind": "cta", "text": "Free Site Inspection", "sub": "DM us, or visit assafetyzone.com", "dur": 6.0 }
+  ]
+}

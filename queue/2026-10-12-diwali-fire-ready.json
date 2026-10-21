@@ -76,6 +76,15 @@
       "result": "NOT POSTED — the permission block from the first 3 attempts was no longer tested, because the content itself is now stale: the hook card and script say 'Diwali is 4 WEEKS AWAY', baked into the video pixels (not just the caption). Diwali is 8 Nov 2026; from today (19 Oct) that is ~19 days / under 3 weeks, not 4. Posting the on-screen '4 WEEKS TO DIWALI' claim today would be visibly wrong to any follower doing the math, which conflicts with the brand's 'no fake claims' rule. The caption text can be overridden at publish time, but the countdown is burned into card 1 of the rendered video itself, so a caption fix alone would not correct it.",
       "next": "Needs an owner decision, not another automatic attempt: (1) have this re-rendered with a corrected countdown (no original render script for the fallback video is saved in this repo, so this needs a fresh render), (2) drop the '4 weeks' framing entirely and just ship the safety-checklist content without a countdown, or (3) pull this manifest from the queue and let it lapse — Diwali content closer to 8 Nov would land better anyway. This run posted a fresh, undated 'demo-day recap' reel today instead (see reels/2026-10-19-demo-day-recap.mp4) so today's slot wasn't empty. Meanwhile, today's publish_instagram_reel call (for the demo-day recap reel) succeeded on the first try with no permission block — so the Real-World Transactions block from 12/14/16 Oct appears to have cleared; worth retrying this Diwali reel (with corrected content) on the next run.",
       "mail": "Reel posted — Demo-day recap — 19 Oct 2026 (this run; Diwali reel flagged separately in the same mail)"
+    },
+    {
+      "at": "2026-10-21T run (today)",
+      "run": "Reels Studio scheduled run",
+      "chosen": "NOT attempted — still held back, same reason as 19 Oct",
+      "dryRun": "not run — publish was never attempted",
+      "result": "NOT POSTED. Nothing changed since 19 Oct: flowClipsDir still has no clip-01.mp4, flowVersion.assetId is still null, and inbox/diwali-v2/ still holds only its README (no s1..s9.mp4 or voice.m4a from the owner). The fallback video's on-screen hook card still reads '4 WEEKS TO DIWALI' — and today that is more wrong than on the 19th: Diwali 2026 is 8 Nov, which from 21 Oct is ~18 days (~2.5 weeks), not 4. Posting a visibly incorrect countdown fails the brand's 'no fake claims' rule, so this run again used a fresh standard reel for today's slot instead (reels/2026-10-21-extinguisher-gauge-check.mp4) and left this manifest queued rather than guessing at a fix.",
+      "next": "Still needs one of the three owner calls from the 19 Oct entry: re-render with a corrected (or no) countdown, or pull this manifest from the queue since Diwali content closer to 8 Nov (if at all) would land better now than a late, re-dated version of this one. No action needed from this run beyond leaving it queued and flagged.",
+      "mail": "Reel posted — Monthly extinguisher gauge check — 21 Oct 2026 (this run; Diwali reel flagged separately in the same mail)"
     }
   ]
 }
