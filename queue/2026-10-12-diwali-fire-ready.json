@@ -85,6 +85,15 @@
       "result": "NOT POSTED. Nothing changed since 19 Oct: flowClipsDir still has no clip-01.mp4, flowVersion.assetId is still null, and inbox/diwali-v2/ still holds only its README (no s1..s9.mp4 or voice.m4a from the owner). The fallback video's on-screen hook card still reads '4 WEEKS TO DIWALI' — and today that is more wrong than on the 19th: Diwali 2026 is 8 Nov, which from 21 Oct is ~18 days (~2.5 weeks), not 4. Posting a visibly incorrect countdown fails the brand's 'no fake claims' rule, so this run again used a fresh standard reel for today's slot instead (reels/2026-10-21-extinguisher-gauge-check.mp4) and left this manifest queued rather than guessing at a fix.",
       "next": "Still needs one of the three owner calls from the 19 Oct entry: re-render with a corrected (or no) countdown, or pull this manifest from the queue since Diwali content closer to 8 Nov (if at all) would land better now than a late, re-dated version of this one. No action needed from this run beyond leaving it queued and flagged.",
       "mail": "Reel posted — Monthly extinguisher gauge check — 21 Oct 2026 (this run; Diwali reel flagged separately in the same mail)"
+    },
+    {
+      "at": "2026-10-23T run (today)",
+      "run": "Reels Studio scheduled run",
+      "chosen": "NOT attempted — still held back, same reason as 19/21 Oct",
+      "dryRun": "not run — publish was never attempted",
+      "result": "NOT POSTED. Nothing changed since 21 Oct: flowClipsDir still has no clip-01.mp4, flowVersion.assetId is still null, and inbox/diwali-v2/ still holds only its README (no s1..s9.mp4 or voice.m4a from the owner). The fallback video's on-screen hook card still reads '4 WEEKS TO DIWALI' — and today that is wrong by more than half: Diwali 2026 is 8 Nov, which from 23 Oct is 16 days (~2.3 weeks), not 4. Posting a visibly incorrect countdown fails the brand's 'no fake claims' rule, so this run again used a fresh standard reel for today's slot instead (reels/2026-10-23-myth-vs-fact.mp4, theme (b) myth vs fact — already pre-announced as today's planned theme in the morning footage-ask email) and left this manifest queued rather than guessing at a fix.",
+      "next": "At 16 days to Diwali the '4 weeks' fallback is now too stale to ever be correct again before the festival — the three owner calls from 19 Oct still stand (re-render with a corrected/no countdown, or pull this manifest and let it lapse), but a re-render only makes sense if it lands within the next few days. If no footage or decision arrives soon, the next run should default to pulling this manifest rather than carrying it forward indefinitely.",
+      "mail": "Reel posted — Myth vs fact — 23 Oct 2026 (this run; Diwali reel flagged separately in the same mail)"
     }
   ]
 }
