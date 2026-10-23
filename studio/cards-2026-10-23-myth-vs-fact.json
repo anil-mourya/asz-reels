@@ -1,0 +1,14 @@
+{
+  "slug": "2026-10-23-myth-vs-fact",
+  "theme": "(b) myth vs fact — 3 fire safety myths Mumbai societies still believe",
+  "cards": [
+    { "kind": "hook", "text": "3 Fire Safety Myths Mumbai Still Believes", "dur": 3.5 },
+    { "kind": "body", "text": "Myth: One Extinguisher Fits Every Fire", "dur": 3.4 },
+    { "kind": "body", "text": "Fact: Different Fires Need Different Extinguishers", "sub": "ABC, CO2, foam or clean agent", "dur": 3.4 },
+    { "kind": "body", "text": "Myth: Alarms Only Matter During a Fire", "dur": 3.4 },
+    { "kind": "body", "text": "Fact: Untested Alarms Fail Silently", "sub": "Monthly testing catches faults early", "dur": 3.4 },
+    { "kind": "body", "text": "Myth: Fire NOC Is Just Paperwork", "dur": 3.4 },
+    { "kind": "body", "text": "Fact: B-Form Compliance Is Legally Required", "sub": "And it's checked during inspections", "dur": 3.4 },
+    { "kind": "cta", "text": "Free Site Inspection", "sub": "DM us, or visit assafetyzone.com", "dur": 6.0 }
+  ]
+}
