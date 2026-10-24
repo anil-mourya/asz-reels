@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-24",
+  "timezone": "Asia/Kolkata",
+  "weekStart": "2026-10-26",
+  "campaignId": "asz-2026-10-26-amc-proof",
+  "status": "planned_assets_required",
+  "audience": "Mumbai housing-society committee members and facility managers",
+  "priorityService": "Fire AMC",
+  "landingPage": "https://assafetyzone.com/fire-amc-services-mumbai.html",
+  "customerQuestion": "What should a society receive from a professional fire AMC?",
+  "owners": {
+    "productionAndInstagram": "Claude Instagram Reels Studio v3",
+    "search": "Claude SEO Manager",
+    "gbp": "Claude Weekly gbp post",
+    "visualPreparation": "Claude Reel footage check",
+    "optionalResearch": "Grok ASZ Chief Marketing Officer"
+  },
+  "handoff": {
+    "sourceOfTruth": "This repository; no shared chat memory is assumed",
+    "grokAccess": "unverified",
+    "fallback": "Claude completes planning independently if Grok brief is unavailable"
+  },
+  "evidenceLinks": [
+    "https://assafetyzone.com/fire-amc-services-mumbai.html",
+    "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "https://support.google.com/business/answer/7091"
+  ],
+  "cta": "DM AMC for a discussion about your building's maintenance needs",
+  "creativeStandard": {
+    "format": "1080x1920,18-35s,meaningful visual motion,audible authorized audio,subtitles,original logo every frame",
+    "prohibitedFallback": "Plain gradient/text-card slideshow or silent AAC stream",
+    "assets": "Real authorized ASZ footage preferred; approved licensed or labelled AI illustrative media otherwise",
+    "qa": "Review actual first/middle/last and scene-boundary frames, cover, audio, provenance and date accuracy before publishing"
+  },
+  "reels": [
+    {
+      "campaignId": "asz-2026-10-26-amc-proof-r1",
+      "slot": "2026-10-26T08:24:00+05:30",
+      "theme": "Ask for the service record",
+      "hook": "What did your last AMC visit cover?",
+      "storyboard": [
+        "Visual close-up of an anonymized service report with client data removed",
+        "Technician carrying out an authorized non-hazardous inspection",
+        "Relevant equipment detail with a short supporting caption",
+        "Documented observations and next-action list",
+        "Image-led CTA with original logo"
+      ],
+      "narrationDirection": "Explain the value of knowing what was inspected, what needs attention and what happens next. Do not imply paperwork alone proves safety.",
+      "coverHeadline": "What did your AMC cover?",
+      "assetStatus": "needs_inventory_and_visual_audio_preparation",
+      "status": "brief"
+    },
+    {
+      "campaignId": "asz-2026-10-26-amc-proof-r2",
+      "slot": "2026-10-28T08:24:00+05:30",
+      "theme": "A professional visit, behind the scenes",
+      "hook": "A service visit should leave clear answers.",
+      "storyboard": [
+        "ASZ equipment or approved illustrative establishing shot",
+        "Authorized technician preparation and inspection footage",
+        "Detail shot relevant to the actual source footage",
+        "Anonymized findings documented",
+        "CTA to discuss society AMC needs"
+      ],
+      "narrationDirection": "Describe only the tasks visible and verified in the source footage; no invented site/customer or procedural fire-safety instruction.",
+      "coverHeadline": "Inside an AMC visit",
+      "assetStatus": "needs_inventory_and_visual_audio_preparation",
+      "status": "brief"
+    },
+    {
+      "campaignId": "asz-2026-10-26-amc-proof-r3",
+      "slot": "2026-10-30T08:24:00+05:30",
+      "theme": "Compare AMC scope clearly",
+      "hook": "Comparing AMC quotes? Compare the scope.",
+      "storyboard": [
+        "Image-led hook with real fire-system background",
+        "Anonymized example scope sheet clearly labelled illustrative",
+        "Equipment details matching the chosen services",
+        "Readable visual of visit schedule, reporting and exclusions",
+        "CTA with logo"
+      ],
+      "narrationDirection": "Encourage a clear written scope, visit schedule, reporting and exclusions. Do not invent prices, guarantees or legal requirements.",
+      "coverHeadline": "Compare the AMC scope",
+      "assetStatus": "needs_inventory_and_visual_audio_preparation",
+      "status": "brief"
+    }
+  ],
+  "gbp": {
+    "campaignId": "asz-2026-10-26-amc-proof-gbp",
+    "angle": "Documented maintenance and clear service scope",
+    "locations": [
+      "09456958450354913035",
+      "02717173526014985540"
+    ],
+    "imageBrief": "Original authorized technician/equipment photograph with clean logo and restrained headline; no client identifiers",
+    "status": "draft_required"
+  },
+  "website": {
+    "owner": "Claude SEO Manager",
+    "action": "Review existing Fire AMC page for clearer scope, verified evidence and enquiry journey; prepare the top three exact changes and track implementation separately",
+    "status": "proposed_not_applied"
+  },
+  "measurement": {
+    "hypothesis": "A visual explanation of service documentation and scope will produce more qualified AMC enquiries than caption-card-only reels.",
+    "primary": "Qualified enquiries by Instagram/GBP/website and campaign keyword",
+    "secondary": [
+      "7-day reel reach/watch-time/saves/shares where available",
+      "Search Console page/query clicks and impressions over comparable complete periods",
+      "GBP calls and website actions where available"
+    ],
+    "baseline": "not yet retrieved",
+    "rule": "Do not invent unavailable metrics or equate WebSearch result order with Google ranking."
+  }
+}
