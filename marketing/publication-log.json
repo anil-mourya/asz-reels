@@ -1,1 +1,28 @@
-{"schemaVersion":1,"timezone":"Asia/Kolkata","historicalBackfillPending":true,"entries":[],"note":"An empty log is not proof that no posts exist. Check existing queue manifests and live publication history before publishing."}
+{
+  "schemaVersion": 1,
+  "timezone": "Asia/Kolkata",
+  "historicalBackfillPending": true,
+  "entries": [
+    {
+      "campaignId": "2026-10-24-fire-piping-behind-scenes",
+      "contentFingerprint": "ad26c0449759bc3df6fee84f35a7ec60bfdd2c5fe130e5b4a80af637a95e4cff",
+      "status": "publishing",
+      "reservedAt": "2026-10-24T16:20:32.432300+00:00",
+      "theme": "Fire piping behind the scenes — archival project footage",
+      "sourceType": "owner-archive",
+      "paths": {
+        "video": "reels/2026-10-24-fire-piping-behind-scenes.mp4",
+        "cover": "covers/2026-10-24-fire-piping-behind-scenes.jpg",
+        "contactSheet": "studio/qa/2026-10-24-fire-piping-behind-scenes-contact.jpg",
+        "qa": "studio/qa/2026-10-24-fire-piping-behind-scenes.json"
+      },
+      "videoSha256": "d47fb938b4f1ad47ee99cd2502d7a39bbf0ef36aa28fb7218bc2fe65a37f96ee",
+      "qaResult": "passed",
+      "reviewPath": "studio/qa/2026-10-24-fire-piping-behind-scenes-review.json",
+      "mediaId": null,
+      "permalink": null,
+      "postedAt": null
+    }
+  ],
+  "note": "An empty log is not proof that no posts exist. Check existing queue manifests and live publication history before publishing."
+}
