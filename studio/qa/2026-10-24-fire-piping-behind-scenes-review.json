@@ -1,6 +1,7 @@
 {
   "reviewer": "Claude (ASZ Instagram Reels Studio, Cowork scheduled run)",
-  "reviewedAt": "2026-10-24T16:30+05:30",
+  "reviewedAt": "2026-10-24T21:50:05+05:30",
+  "timestampSource": "Correction: the original reviewedAt (16:30+05:30) was inconsistent with the actual run, which took place around 21:46-21:52 IST. No exact viewing timestamp was separately logged during review, so this value is the commit timestamp of c7a48bb4fb5d6e8cb33397cc5d8127d46a246b18 (the commit that saved this review file: 2026-10-24T16:20:05Z = 2026-10-24T21:50:05+05:30), used as an explicitly labelled approximate review-save time, not an invented exact moment of viewing.",
   "videoSha256": "d47fb938b4f1ad47ee99cd2502d7a39bbf0ef36aa28fb7218bc2fe65a37f96ee",
   "observations": [
     "0.00-5.02s (ground-pipework): A technician in a dark face shield works low to the ground over a row of horizontal galvanised pipes on a prepared base, visible sparks and arc-flash brightness. On-screen copy reads only 'Fire piping, behind the scenes' — it does not name welding/cutting/grinding, matching the catalogue note that the exact operation should not be guessed. Logo card is clean, single, top-centre; no leftover captions or second logo visible in the frame body.",
