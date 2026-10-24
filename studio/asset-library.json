@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "logoSha256": "4acd8fb13e0e10069e3d4d3a6c594c920a5367dd090d4910a7175c21bb4d0b69",
+  "reviewPolicy": "Claude may add assets after actually inspecting timestamped frames, verifying rights, reviewing clean crops and writing truthful scene-specific copy. Never automatically label unexamined assets reviewed. New story/footage must pass the same render and independent visual QA. The catalogue is evidence, not a generic B-roll bucket.",
+  "assets": {
+    "asz-pipework-archive-2026-10-11": {
+      "path": "reels/2026-10-11-rajhans-malad-west.mp4",
+      "sha256": "0d452069f235d2c7613f3d259a29fe7f5f2de78cfaf2b23db2bbcec85f281631",
+      "width": 1080,
+      "height": 1920,
+      "reviewed": true,
+      "reviewedAt": "2026-10-24",
+      "sourceType": "owner-archive",
+      "rights": "Existing owner-authorized ASZ project footage in the owner's public media repository, previously used in the 11 October 2026 reel; current user authorizes re-edit and publication. Do not imply fresh footage or a new project.",
+      "previouslyUsed": ["2026-10-11"],
+      "limitations": "Edited source already contains branding and captions. Only the reviewed time windows and clean crops below remove these while preserving the visible action. No AMC, inspection, testing, compliance result, free offer or completion claim is supported.",
+      "approvedPostCaptions": ["Behind the scenes of ASZ fire-piping work — pipe preparation and on-site installation.\n\nThis reel uses previously recorded ASZ project footage, re-edited for a closer look at the work.\n\nPlanning fire-piping work for your property? Discuss your project at assafetyzone.com.\n\n#FirePiping #FireSafety #Mumbai"],
+      "scenes": {
+        "ground-pipework": {
+          "start": 9.6,
+          "end": 13.4,
+          "cleanCrops": [[626,800,420,370]],
+          "observation": "Ground-level pipework with a worker and visible activity; broader fire-piping hook supported. The copy does not name the exact tool or assert a test outcome.",
+          "approvedLines": [["Fire piping,","behind the scenes"]]
+        },
+        "pipe-preparation": {
+          "start": 14.5,
+          "end": 17.2,
+          "cleanCrops": [[626,800,350,370]],
+          "observation": "Technician working on a pipe with a handheld tool; close-up supports pipe preparation. Not an inspection or maintenance report.",
+          "approvedLines": [["Pipe preparation,","up close"]]
+        },
+        "overhead-pipework": {
+          "start": 18.25,
+          "end": 22.0,
+          "cleanCrops": [[626,800,245,370]],
+          "observation": "Technician working at an overhead pipe joint. General on-site pipework wording avoids guessing a specific tool or completion status.",
+          "approvedLines": [["On-site","pipework"]]
+        },
+        "overhead-closeup": {
+          "start": 22.4,
+          "end": 25.7,
+          "cleanCrops": [[486,620,345,530]],
+          "observation": "Tighter crop of the same continuous overhead-work take, used for a general project enquiry CTA. It is not presented as a new moment, completed installation or service promise.",
+          "approvedLines": [["Discuss your","fire-piping project"]]
+        }
+      }
+    }
+  }
+}

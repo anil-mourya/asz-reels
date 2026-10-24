@@ -1,0 +1,13 @@
+{
+  "slot": "2026-10-24-fire-piping-behind-scenes",
+  "theme": "Fire piping behind the scenes — archival project footage",
+  "assetId": "asz-pipework-archive-2026-10-11",
+  "speed": 0.74,
+  "caption": "Behind the scenes of ASZ fire-piping work — pipe preparation and on-site installation.\n\nThis reel uses previously recorded ASZ project footage, re-edited for a closer look at the work.\n\nPlanning fire-piping work for your property? Discuss your project at assafetyzone.com.\n\n#FirePiping #FireSafety #Mumbai",
+  "shots": [
+    {"scene":"ground-pipework","start":9.6,"duration":3.8,"crop":[626,800,420,370],"lines":["Fire piping,","behind the scenes"]},
+    {"scene":"pipe-preparation","start":14.5,"duration":2.7,"crop":[626,800,350,370],"lines":["Pipe preparation,","up close"]},
+    {"scene":"overhead-pipework","start":18.25,"duration":3.75,"crop":[626,800,245,370],"lines":["On-site","pipework"]},
+    {"scene":"overhead-closeup","start":22.4,"duration":3.3,"crop":[486,620,345,530],"lines":["Discuss your","fire-piping project"]}
+  ]
+}
