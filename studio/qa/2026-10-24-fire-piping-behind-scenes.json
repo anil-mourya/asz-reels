@@ -1,0 +1,132 @@
+{
+  "rendererVersion": "1.0.1",
+  "campaignId": "2026-10-24-fire-piping-behind-scenes",
+  "contentFingerprint": "ad26c0449759bc3df6fee84f35a7ec60bfdd2c5fe130e5b4a80af637a95e4cff",
+  "mechanicalPass": true,
+  "publicationReady": false,
+  "needs": "Claude must visually inspect contact sheet, cover, and audio, then write the independent review and run gate",
+  "paths": {
+    "video": "reels/2026-10-24-fire-piping-behind-scenes.mp4",
+    "cover": "covers/2026-10-24-fire-piping-behind-scenes.jpg",
+    "contactSheet": "studio/qa/2026-10-24-fire-piping-behind-scenes-contact.jpg",
+    "qa": "studio/qa/2026-10-24-fire-piping-behind-scenes.json"
+  },
+  "videoSha256": "d47fb938b4f1ad47ee99cd2502d7a39bbf0ef36aa28fb7218bc2fe65a37f96ee",
+  "coverSha256": "cf27723544ee7374dcdb238cc58e3fba7c4503deb6ae42914eb0b7f78411c058",
+  "source": "reels/2026-10-11-rajhans-malad-west.mp4",
+  "sourceType": "owner-archive",
+  "rights": "Existing owner-authorized ASZ project footage in the owner's public media repository, previously used in the 11 October 2026 reel; current user authorizes re-edit and publication. Do not imply fresh footage or a new project.",
+  "audio": "Original source location audio; tempo-adjusted, levelled, limited",
+  "shotToCaptionMap": [
+    {
+      "visibleAction": "Ground-level pipework with a worker and visible activity; broader fire-piping hook supported. The copy does not name the exact tool or assert a test outcome.",
+      "scene": "ground-pipework",
+      "start": 9.6,
+      "duration": 3.8,
+      "crop": [
+        626,
+        800,
+        420,
+        370
+      ],
+      "lines": [
+        "Fire piping,",
+        "behind the scenes"
+      ]
+    },
+    {
+      "visibleAction": "Technician working on a pipe with a handheld tool; close-up supports pipe preparation. Not an inspection or maintenance report.",
+      "scene": "pipe-preparation",
+      "start": 14.5,
+      "duration": 2.7,
+      "crop": [
+        626,
+        800,
+        350,
+        370
+      ],
+      "lines": [
+        "Pipe preparation,",
+        "up close"
+      ]
+    },
+    {
+      "visibleAction": "Technician working at an overhead pipe joint. General on-site pipework wording avoids guessing a specific tool or completion status.",
+      "scene": "overhead-pipework",
+      "start": 18.25,
+      "duration": 3.75,
+      "crop": [
+        626,
+        800,
+        245,
+        370
+      ],
+      "lines": [
+        "On-site",
+        "pipework"
+      ]
+    },
+    {
+      "visibleAction": "Tighter crop of the same continuous overhead-work take, used for a general project enquiry CTA. It is not presented as a new moment, completed installation or service promise.",
+      "scene": "overhead-closeup",
+      "start": 22.4,
+      "duration": 3.3,
+      "crop": [
+        486,
+        620,
+        345,
+        530
+      ],
+      "lines": [
+        "Discuss your",
+        "fire-piping project"
+      ]
+    }
+  ],
+  "evidence": {
+    "duration": 18.18,
+    "sizeBytes": 10192205,
+    "meanAudioDb": -22.8,
+    "peakAudioDb": -1.7,
+    "sampleTimes": [
+      0.0,
+      0.12,
+      2.5675675675675675,
+      5.015135135135135,
+      5.255135135135135,
+      6.95945945945946,
+      8.663783783783785,
+      8.903783783783783,
+      11.317567567567568,
+      13.731351351351352,
+      13.97135135135135,
+      16.08108108108108,
+      17.88,
+      17.88
+    ],
+    "imageLuma": [
+      108.2,
+      120.5,
+      110.4,
+      134.5,
+      123.6,
+      121.6,
+      91.5,
+      148.1,
+      146.1,
+      133.0,
+      138.2,
+      103.4,
+      110.4,
+      110.4
+    ],
+    "motionDifference": [
+      51.07,
+      54.71,
+      42.59,
+      22.96
+    ],
+    "decodedCompletely": true,
+    "blackIntervals": 0
+  }
+}

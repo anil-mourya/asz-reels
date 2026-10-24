@@ -1,0 +1,23 @@
+{
+  "reviewer": "Claude (ASZ Instagram Reels Studio, Cowork scheduled run)",
+  "reviewedAt": "2026-10-24T16:30+05:30",
+  "videoSha256": "d47fb938b4f1ad47ee99cd2502d7a39bbf0ef36aa28fb7218bc2fe65a37f96ee",
+  "observations": [
+    "0.00-5.02s (ground-pipework): A technician in a dark face shield works low to the ground over a row of horizontal galvanised pipes on a prepared base, visible sparks and arc-flash brightness. On-screen copy reads only 'Fire piping, behind the scenes' — it does not name welding/cutting/grinding, matching the catalogue note that the exact operation should not be guessed. Logo card is clean, single, top-centre; no leftover captions or second logo visible in the frame body.",
+    "5.26-8.90s (pipe-preparation): A different technician in an orange hard hat works a handheld grinding tool against a pipe at close range (visible disc sparks), consistent with 'Pipe preparation, up close' without asserting the specific tool. One clean logo card, no old overlay text visible in the cropped frame.",
+    "11.32-16.08s (overhead-pipework): Technician at an overhead pipe joint, sparks visible, same general work-site. Copy 'On-site pipework' is broad and factual. Clean single logo, readable caption, no artefacts from the original 11 Oct edit visible in this crop window.",
+    "17.88s (overhead-closeup, cover frame + CTA): Tighter crop of the same continuous overhead-work take with strong arc-flash brightness; CTA card reads 'Discuss your fire-piping project' plus assafetyzone.com in the final-frame style (no phone number, no discount). Disclosure line 'PREVIOUSLY RECORDED ASZ FOOTAGE' is present and legible on every sampled frame including this one. Cover image (grabbed at 1.2s) matches the opening shot of the finished video."
+  ],
+  "historyEvidence": "Checked before rendering: marketing/publication-log.json entries[] is empty (schema just added, historicalBackfillPending=true, not itself proof of no posts); queue/ holds only 2026-10-12-diwali-fire-ready.json (a different, still-queued Diwali slot, unrelated fingerprint); git log on main shows posted reels through 2026-10-23 (myth-vs-fact, extinguisher-gauge-check, demo-day-recap, diwali v1/v2 drafts, rajhans-malad-west and -v2, form-b, refill-process) but no commit, reel file, cover file, or queue entry for slot 2026-10-24-fire-piping-behind-scenes or for this manifest's content fingerprint — this commissioning edit has not been rendered, reserved or published before. The source clip (reels/2026-10-11-rajhans-malad-west.mp4) was itself posted 11 Oct 2026 as its own reel; this edit is logged and labelled throughout as reused archival footage of that same project, never as new/fresh footage or a new job, per asset-library.json's rights/limitations notes.",
+  "checks": {
+    "footage_matches_copy": true,
+    "single_clean_logo": true,
+    "captions_readable": true,
+    "no_old_overlays": true,
+    "audio_appropriate": true,
+    "cover_matches_video": true,
+    "no_false_claims": true,
+    "history_checked": true
+  },
+  "notes": "Mechanical QA passed: 18.18s duration, 1080x1920 h264/yuv420p 24fps, AAC audio at -22.8dB mean / -1.7dB peak (within range, no clipping), no black frames, sampled motion differences all above threshold, 9.7MB output under the 12MB cap. Caption discloses reuse of previously recorded footage, names no customer/site, carries the single required CTA (assafetyzone.com), and uses the #FirePiping #FireSafety #Mumbai hashtag set — no discount or phone number on screen. This is the one-off owner-commissioned archival pipework edit for 24 Oct 2026; future slots must use genuinely new supported stories, not a repeat of this edit."
+}
