@@ -2,6 +2,18 @@
   "schemaVersion": 1,
   "updatedAt": "2026-10-24",
   "timezone": "Asia/Kolkata",
+  "completedOutOfCycleRuns": [
+    {
+      "date": "2026-10-24",
+      "type": "owner-commissioned one-off, not part of a weekly campaign",
+      "campaignId": "2026-10-24-fire-piping-behind-scenes",
+      "theme": "Fire piping, behind the scenes — archival Rajhans Malad West pipework footage, re-edited",
+      "archiveReuse": "Reused the 11 Oct 2026 reel's source clip (reels/2026-10-11-rajhans-malad-west.mp4) with a new 4-shot edit, new story/copy and new cover; labelled on-screen and in the caption as previously recorded ASZ footage, never implied as a new job or fresh visit.",
+      "result": "Posted — https://www.instagram.com/reel/De4jHXrDIGH/ (mediaId 18133088551684000)",
+      "learning": "This is a one-time commissioning edit, not a repeatable template — do not reuse this exact edit again. No reach/engagement insights tool is currently connected, so 24-48h/7-day performance could not be measured this run; see the owner report for what to connect next.",
+      "nextAction": "Future slots (including the week-of-26-Oct AMC-proof campaign below) need genuinely new supported footage or a new approved story; do not recycle this commissioning edit."
+    }
+  ],
   "weekStart": "2026-10-26",
   "campaignId": "asz-2026-10-26-amc-proof",
   "status": "planned_assets_required",
