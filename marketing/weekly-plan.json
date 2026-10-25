@@ -1,7 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-10-25",
   "timezone": "Asia/Kolkata",
+  "mirrorNote": "This file is a sanitized, NON-AUTHORITATIVE derived mirror for legacy public readers. The canonical plan is PRIVATE anil-mourya/asfinance-app, branch marketing-analytics-state, marketing/weekly-plan.json. Only generic intent, landing page, audience, creative briefs, CTA and confirmed public post details are mirrored here; never private metrics, queries, audience data or credentials.",
   "completedOutOfCycleRuns": [
     {
       "date": "2026-10-24",
@@ -10,10 +11,18 @@
       "theme": "Fire piping, behind the scenes — archival Rajhans Malad West pipework footage, re-edited",
       "archiveReuse": "Reused the 11 Oct 2026 reel's source clip (reels/2026-10-11-rajhans-malad-west.mp4) with a new 4-shot edit, new story/copy and new cover; labelled on-screen and in the caption as previously recorded ASZ footage, never implied as a new job or fresh visit.",
       "result": "Posted — https://www.instagram.com/reel/De4jHXrDIGH/ (mediaId 18133088551684000)",
-      "learning": "This is a one-time commissioning edit, not a repeatable template — do not reuse this exact edit again. No reach/engagement insights tool is currently connected, so 24-48h/7-day performance could not be measured this run; see the owner report for what to connect next.",
+      "learning": "This is a one-time commissioning edit, not a repeatable template — do not reuse this exact edit again.",
       "nextAction": "Future slots (including the week-of-26-Oct AMC-proof campaign below) need genuinely new supported footage or a new approved story; do not recycle this commissioning edit."
     }
   ],
+  "lastCoordinationTest": {
+    "runId": "asz-shared-campaign-2026-10-25",
+    "date": "2026-10-25",
+    "type": "owner-authorized, one-off, out-of-cycle shared SEO/Reels coordination test — separate from the weekly campaign below",
+    "outcome": "blocked — no eligible new footage was found for this run (the archived pipework footage is exhausted and off-topic for the active campaign; other candidate files are text-card slideshows with no footage, or an unfinished placeholder render). No story was chosen, nothing was rendered, uploaded or published. The regular Mon/Wed/Fri schedule and the already-posted 24 Oct commissioning reel are unaffected.",
+    "sourcePlanRevision": 2,
+    "updatedAt": "2026-10-25T12:58:00.000Z"
+  },
   "weekStart": "2026-10-26",
   "campaignId": "asz-2026-10-26-amc-proof",
   "status": "planned_assets_required",
@@ -29,7 +38,7 @@
     "optionalResearch": "Grok ASZ Chief Marketing Officer"
   },
   "handoff": {
-    "sourceOfTruth": "This repository; no shared chat memory is assumed",
+    "sourceOfTruth": "PRIVATE anil-mourya/asfinance-app, branch marketing-analytics-state, marketing/weekly-plan.json. This file is a derived mirror.",
     "grokAccess": "unverified",
     "fallback": "Claude completes planning independently if Grok brief is unavailable"
   },
@@ -51,14 +60,6 @@
       "slot": "2026-10-26T08:24:00+05:30",
       "theme": "Ask for the service record",
       "hook": "What did your last AMC visit cover?",
-      "storyboard": [
-        "Visual close-up of an anonymized service report with client data removed",
-        "Technician carrying out an authorized non-hazardous inspection",
-        "Relevant equipment detail with a short supporting caption",
-        "Documented observations and next-action list",
-        "Image-led CTA with original logo"
-      ],
-      "narrationDirection": "Explain the value of knowing what was inspected, what needs attention and what happens next. Do not imply paperwork alone proves safety.",
       "coverHeadline": "What did your AMC cover?",
       "assetStatus": "needs_inventory_and_visual_audio_preparation",
       "status": "brief"
@@ -68,14 +69,6 @@
       "slot": "2026-10-28T08:24:00+05:30",
       "theme": "A professional visit, behind the scenes",
       "hook": "A service visit should leave clear answers.",
-      "storyboard": [
-        "ASZ equipment or approved illustrative establishing shot",
-        "Authorized technician preparation and inspection footage",
-        "Detail shot relevant to the actual source footage",
-        "Anonymized findings documented",
-        "CTA to discuss society AMC needs"
-      ],
-      "narrationDirection": "Describe only the tasks visible and verified in the source footage; no invented site/customer or procedural fire-safety instruction.",
       "coverHeadline": "Inside an AMC visit",
       "assetStatus": "needs_inventory_and_visual_audio_preparation",
       "status": "brief"
@@ -85,14 +78,6 @@
       "slot": "2026-10-30T08:24:00+05:30",
       "theme": "Compare AMC scope clearly",
       "hook": "Comparing AMC quotes? Compare the scope.",
-      "storyboard": [
-        "Image-led hook with real fire-system background",
-        "Anonymized example scope sheet clearly labelled illustrative",
-        "Equipment details matching the chosen services",
-        "Readable visual of visit schedule, reporting and exclusions",
-        "CTA with logo"
-      ],
-      "narrationDirection": "Encourage a clear written scope, visit schedule, reporting and exclusions. Do not invent prices, guarantees or legal requirements.",
       "coverHeadline": "Compare the AMC scope",
       "assetStatus": "needs_inventory_and_visual_audio_preparation",
       "status": "brief"
@@ -101,26 +86,17 @@
   "gbp": {
     "campaignId": "asz-2026-10-26-amc-proof-gbp",
     "angle": "Documented maintenance and clear service scope",
-    "locations": [
-      "09456958450354913035",
-      "02717173526014985540"
-    ],
     "imageBrief": "Original authorized technician/equipment photograph with clean logo and restrained headline; no client identifiers",
     "status": "draft_required"
   },
   "website": {
     "owner": "Claude SEO Manager",
-    "action": "Review existing Fire AMC page for clearer scope, verified evidence and enquiry journey; prepare the top three exact changes and track implementation separately",
+    "action": "Review existing Fire AMC page for clearer scope, verified evidence and enquiry journey",
     "status": "proposed_not_applied"
   },
   "measurement": {
     "hypothesis": "A visual explanation of service documentation and scope will produce more qualified AMC enquiries than caption-card-only reels.",
     "primary": "Qualified enquiries by Instagram/GBP/website and campaign keyword",
-    "secondary": [
-      "7-day reel reach/watch-time/saves/shares where available",
-      "Search Console page/query clicks and impressions over comparable complete periods",
-      "GBP calls and website actions where available"
-    ],
     "baseline": "not yet retrieved",
     "rule": "Do not invent unavailable metrics or equate WebSearch result order with Google ranking."
   }
