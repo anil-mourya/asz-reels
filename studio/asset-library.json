@@ -45,6 +45,55 @@
           "approvedLines": [["Discuss your","fire-piping project"]]
         }
       }
+    },
+    "asz-pump-room-setup-2026-10-25-pipework": {
+      "path": "inbox/9fea2a62-5eef-48e5-8a51-4c5628e52ec5.mov",
+      "sha256": "2a630c77ce2e5a7db327f2740f5b2b0f2a791ba7e44140152c589357408faffb",
+      "width": 854,
+      "height": 480,
+      "orientation": "landscape — NOT vertical; needs crop/reframe to 9:16 before use in any reel render",
+      "durationSec": 13.2,
+      "reviewed": true,
+      "reviewedAt": "2026-10-25",
+      "sourceType": "owner-original",
+      "rights": "New owner-supplied ASZ project footage, submitted via the asz-reels inbox drop-folder on 25 Oct 2026 ('Saved new video for pump room setup'). Not previously used. Owner authorizes review/cataloguing; use in a specific post is a separate decision (see editorialFit).",
+      "audio": "Audible authorized on-site audio confirmed (mean -23.7 dB, max -6.1 dB) — not silent.",
+      "visibleAction": "Wide/overhead shots of pump-room pipework, valves and blue pump-motor housings; one worker briefly visible from behind (no face). No client name, address or signage visible in the frames inspected. Genuine installation/setup footage, not an inspection or maintenance visit.",
+      "editorialFit": "Does NOT support the active AMC-proof campaign (service record / inspection / scope) — this is installation/setup work, the same category distinction already drawn for the pipework archive. Held for a separate, honestly-framed 'pump room installation, behind the scenes' post; owner decision 25 Oct 2026 was to hold rather than use it on the AMC slots.",
+      "limitations": "Landscape orientation needs cropping/reframing to vertical before any render. No AMC, inspection, testing or compliance claim is supported.",
+      "approvedPostCaptions": [],
+      "scenes": {}
+    },
+    "asz-pump-room-setup-2026-10-25-install": {
+      "path": "inbox/da7e8d22-211a-4c58-a02e-a8e0c5f6471d.mov",
+      "sha256": "85b667bfb8c124c42eaaa17bf5e24e31de0b61c7f378b7fa26fde24c50159971",
+      "width": 480,
+      "height": 864,
+      "orientation": "portrait, ~9:16 — vertical-ready",
+      "durationSec": 21.4,
+      "reviewed": true,
+      "reviewedAt": "2026-10-25",
+      "sourceType": "owner-original",
+      "rights": "New owner-supplied ASZ project footage, submitted via the asz-reels inbox drop-folder on 25 Oct 2026 ('Saved new video for pump room setup'). Not previously used. Owner confirmed (25 Oct 2026) that showing ASZ technicians' faces on screen is acceptable — no blur/crop required for faces.",
+      "audio": "Audible authorized on-site audio confirmed (mean -25.6 dB, max -8.0 dB) — not silent.",
+      "visibleAction": "Several ASZ technicians assembling/installing a red fire-pump unit onto its base and fitting pipework; faces clearly visible (owner-approved to show). Later portion pans up to overhead pipework and scaffolding with no people. No client name, address or signage visible in the frames inspected. Genuine installation/setup footage, not an inspection or maintenance visit.",
+      "editorialFit": "Does NOT support the active AMC-proof campaign — installation work, not an AMC/service visit. Held for a separate, honestly-framed 'pump room installation, behind the scenes' post; owner decision 25 Oct 2026 was to hold rather than use it on the AMC slots.",
+      "limitations": "Site is mid-construction (raw concrete, scaffolding) — this is in-progress installation work, not a finished/handed-over site. No AMC, inspection, testing or compliance claim is supported.",
+      "approvedPostCaptions": [],
+      "scenes": {
+        "pump-install-team": {
+          "start": 0.0,
+          "end": 16.0,
+          "observation": "Team fitting the red fire-pump unit and connecting pipework; faces visible (owner-approved 25 Oct 2026).",
+          "approvedLines": [["New pump,","going in"]]
+        },
+        "overhead-pipework-pan": {
+          "start": 16.0,
+          "end": 21.4,
+          "observation": "Camera pans up to overhead pipework and scaffolding, no people.",
+          "approvedLines": [["Pump room,","taking shape"]]
+        }
+      }
     }
   }
 }
