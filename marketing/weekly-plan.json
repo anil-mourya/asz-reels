@@ -21,7 +21,10 @@
     "type": "owner-authorized, one-off, out-of-cycle shared SEO/Reels coordination test — separate from the weekly campaign below",
     "outcome": "blocked — no eligible new footage was found for this run (the archived pipework footage is exhausted and off-topic for the active campaign; other candidate files are text-card slideshows with no footage, or an unfinished placeholder render). No story was chosen, nothing was rendered, uploaded or published. The regular Mon/Wed/Fri schedule and the already-posted 24 Oct commissioning reel are unaffected.",
     "sourcePlanRevision": 2,
-    "updatedAt": "2026-10-25T12:58:00.000Z"
+    "updatedAt": null,
+    "updatedAtNote": "Not read from an actual clock when first written; it was an estimated/typed value (2026-10-25T12:58:00.000Z) and has been nulled. The verified git commit time that first wrote this block is 2026-10-25T12:53:29Z (commit 8ba5c8a3d73cd3c5c0dd19def0a5a4eae1b15ea3) - explicitly labelled as commit time, not event time.",
+    "correctedAt": "2026-10-25T12:57:47.251Z",
+    "correctedAtSource": "actual clock (date -u), read during a follow-up record-integrity pass; no new render, upload, publish, analytics re-pull, email, or notification was performed to make this correction"
   },
   "weekStart": "2026-10-26",
   "campaignId": "asz-2026-10-26-amc-proof",

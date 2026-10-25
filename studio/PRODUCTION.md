@@ -12,3 +12,14 @@ Use `pro_renderer.py`, not the older gradient/card renderers. Requirements: Pyth
 8. Update weekly plan with actual theme, archive reuse, result and measured learning. Report the real permalink or exact blocker. Future runs independently repeat this workflow. If no new supported story/footage is available, hold publication and report the missing source; do not recycle the exact edit.
 
 The renderer enforces format, size, decode, audio level, black-frame, sampled motion, source integrity, approved shot/copy mapping, clean crops, logo template and duplicate gates. Creative relevance, meaningful motion, source rights and claims still need Claude's explicit visual/editorial review. The source archive supports installation, not AMC, reports, inspections or test results. Do not insert unsupported safety/compliance advice.
+
+## Shared coordination/reel campaigns (e.g. asz-shared-campaign-*)
+
+This section only clarifies record-keeping obligations for a run driven by the shared SEO/Reels coordination protocol. It adds no new rendering, QA or publication step and changes nothing in steps 1-8 above: every rendering/publication gate (manifest, mechanical QA, independent visual/audio review, gate, dry-run, reservation-before-publish, exactly-once publish, reconciliation) still applies in full, unchanged.
+
+In addition, for such a run:
+- Consult the private canonical plan (anil-mourya/asfinance-app, branch marketing-analytics-state, marketing/weekly-plan.json) and marketing/COORDINATION.md there, plus the matching marketing/briefs/<runId>.json, before selecting a story.
+- Write a private receipt at marketing/handoffs/<runId>/reels.json on that same private branch for every outcome of the run - posted, blocked, held or skipped alike, never only for a successful post. A blocked/held/skipped receipt uses null publication identifiers (assetId, mediaId, permalink, contentFingerprint) and names the exact missing capability; it is never invented to look ready.
+- Keep this repository's marketing/weekly-plan.json as a sanitized, explicitly non-authoritative mirror of the canonical plan: generic intent, briefs and confirmed public post details only, never private metrics, queries, audience data, blob hashes, or credentials.
+- The private receipt is later read and acknowledged by SEO (marketing/handoffs/<runId>/seo.json on the canonical private branch); do not duplicate, substitute, or pre-write that acknowledgement from this repository.
+- Record every timestamp as either a value actually read from a clock or tool response, or null with a note - never a typed/estimated wall-clock time. When only a save time is known, use the git commit's own author date and label it explicitly as commit time, not event time.
