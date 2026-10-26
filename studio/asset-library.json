@@ -12,37 +12,89 @@
       "reviewedAt": "2026-10-24",
       "sourceType": "owner-archive",
       "rights": "Existing owner-authorized ASZ project footage in the owner's public media repository, previously used in the 11 October 2026 reel; current user authorizes re-edit and publication. Do not imply fresh footage or a new project.",
-      "previouslyUsed": ["2026-10-11"],
+      "previouslyUsed": [
+        "2026-10-11"
+      ],
       "limitations": "Edited source already contains branding and captions. Only the reviewed time windows and clean crops below remove these while preserving the visible action. No AMC, inspection, testing, compliance result, free offer or completion claim is supported.",
-      "approvedPostCaptions": ["Behind the scenes of ASZ fire-piping work — pipe preparation and on-site installation.\n\nThis reel uses previously recorded ASZ project footage, re-edited for a closer look at the work.\n\nPlanning fire-piping work for your property? Discuss your project at assafetyzone.com.\n\n#FirePiping #FireSafety #Mumbai"],
+      "approvedPostCaptions": [
+        "Behind the scenes of ASZ fire-piping work — pipe preparation and on-site installation.\n\nThis reel uses previously recorded ASZ project footage, re-edited for a closer look at the work.\n\nPlanning fire-piping work for your property? Discuss your project at assafetyzone.com.\n\n#FirePiping #FireSafety #Mumbai"
+      ],
       "scenes": {
         "ground-pipework": {
           "start": 9.6,
           "end": 13.4,
-          "cleanCrops": [[626,800,420,370]],
+          "cleanCrops": [
+            [
+              626,
+              800,
+              420,
+              370
+            ]
+          ],
           "observation": "Ground-level pipework with a worker and visible activity; broader fire-piping hook supported. The copy does not name the exact tool or assert a test outcome.",
-          "approvedLines": [["Fire piping,","behind the scenes"]]
+          "approvedLines": [
+            [
+              "Fire piping,",
+              "behind the scenes"
+            ]
+          ]
         },
         "pipe-preparation": {
           "start": 14.5,
           "end": 17.2,
-          "cleanCrops": [[626,800,350,370]],
+          "cleanCrops": [
+            [
+              626,
+              800,
+              350,
+              370
+            ]
+          ],
           "observation": "Technician working on a pipe with a handheld tool; close-up supports pipe preparation. Not an inspection or maintenance report.",
-          "approvedLines": [["Pipe preparation,","up close"]]
+          "approvedLines": [
+            [
+              "Pipe preparation,",
+              "up close"
+            ]
+          ]
         },
         "overhead-pipework": {
           "start": 18.25,
           "end": 22.0,
-          "cleanCrops": [[626,800,245,370]],
+          "cleanCrops": [
+            [
+              626,
+              800,
+              245,
+              370
+            ]
+          ],
           "observation": "Technician working at an overhead pipe joint. General on-site pipework wording avoids guessing a specific tool or completion status.",
-          "approvedLines": [["On-site","pipework"]]
+          "approvedLines": [
+            [
+              "On-site",
+              "pipework"
+            ]
+          ]
         },
         "overhead-closeup": {
           "start": 22.4,
           "end": 25.7,
-          "cleanCrops": [[486,620,345,530]],
+          "cleanCrops": [
+            [
+              486,
+              620,
+              345,
+              530
+            ]
+          ],
           "observation": "Tighter crop of the same continuous overhead-work take, used for a general project enquiry CTA. It is not presented as a new moment, completed installation or service promise.",
-          "approvedLines": [["Discuss your","fire-piping project"]]
+          "approvedLines": [
+            [
+              "Discuss your",
+              "fire-piping project"
+            ]
+          ]
         }
       }
     },
@@ -62,7 +114,8 @@
       "editorialFit": "Does NOT support the active AMC-proof campaign (service record / inspection / scope) — this is installation/setup work, the same category distinction already drawn for the pipework archive. Held for a separate, honestly-framed 'pump room installation, behind the scenes' post; owner decision 25 Oct 2026 was to hold rather than use it on the AMC slots.",
       "limitations": "Landscape orientation needs cropping/reframing to vertical before any render. No AMC, inspection, testing or compliance claim is supported.",
       "approvedPostCaptions": [],
-      "scenes": {}
+      "scenes": {},
+      "combinationNote": "Re-reviewed 26 Oct 2026 for the installation-companion post: visually acceptable in isolation (clean valve/pipe framing, one worker briefly visible from behind with no face, no client signage) but studio/pro_renderer.py's manifest format supports exactly one assetId per render. The portrait install clip (asz-pump-room-setup-2026-10-25-install) offers substantially richer footage -- a visible team actively fitting the pump across 16s, versus this clip's static valve framing -- so it was used alone rather than combined. This landscape clip was not discarded, only not used for this specific post; it remains catalogued and reviewed for a future standalone story or a renderer update that supports multiple source assets."
     },
     "asz-pump-room-setup-2026-10-25-install": {
       "path": "inbox/da7e8d22-211a-4c58-a02e-a8e0c5f6471d.mov",
@@ -79,19 +132,55 @@
       "visibleAction": "Several ASZ technicians assembling/installing a red fire-pump unit onto its base and fitting pipework; faces clearly visible (owner-approved to show). Later portion pans up to overhead pipework and scaffolding with no people. No client name, address or signage visible in the frames inspected. Genuine installation/setup footage, not an inspection or maintenance visit.",
       "editorialFit": "Does NOT support the active AMC-proof campaign — installation work, not an AMC/service visit. Held for a separate, honestly-framed 'pump room installation, behind the scenes' post; owner decision 25 Oct 2026 was to hold rather than use it on the AMC slots.",
       "limitations": "Site is mid-construction (raw concrete, scaffolding) — this is in-progress installation work, not a finished/handed-over site. No AMC, inspection, testing or compliance claim is supported.",
-      "approvedPostCaptions": [],
+      "approvedPostCaptions": [
+        "A fire pump room going in — new installation work in progress.\n\nThis reel shows genuine ASZ project footage from an ongoing site. The system shown is not yet tested, commissioned, handed over, or certified compliant.\n\nPlanning a fire pump installation for your property? See our project work at assafetyzone.com/projects.html.\n\n#FirePumpInstallation #FireSafety #Mumbai"
+      ],
       "scenes": {
         "pump-install-team": {
           "start": 0.0,
-          "end": 16.0,
-          "observation": "Team fitting the red fire-pump unit and connecting pipework; faces visible (owner-approved 25 Oct 2026).",
-          "approvedLines": [["New pump,","going in"]]
+          "end": 7.2,
+          "observation": "Team fitting the red fire-pump unit and connecting pipework; faces visible (owner-approved 25 Oct 2026). CORRECTED 26 Oct 2026 after frame-by-frame independent re-review: the team is only actually in frame from 0.0 to approximately 7.3s -- the camera pans up and away from the people by ~7.4-7.9s, not at 16.0s as a prior pass mislabelled. End trimmed to 7.2s for a clean margin before the pan transition blur.",
+          "approvedLines": [
+            [
+              "New pump,",
+              "going in"
+            ],
+            [
+              "Team at work,",
+              "pump room"
+            ]
+          ],
+          "cleanCrops": [
+            [
+              480,
+              613,
+              0,
+              150
+            ]
+          ]
         },
         "overhead-pipework-pan": {
-          "start": 16.0,
+          "start": 8.0,
           "end": 21.4,
-          "observation": "Camera pans up to overhead pipework and scaffolding, no people.",
-          "approvedLines": [["Pump room,","taking shape"]]
+          "observation": "Camera pans up to overhead pipework at a wall corner and then holds a largely static frame on it with scaffolding below, no people. CORRECTED 26 Oct 2026: this scene actually starts around 7.4-8.0s (not 16.0s as previously catalogued) and the pan itself settles into a near-static hold for most of its remaining length -- two shots drawn from it will look similar because that is genuinely what the footage shows, not a copy-paste error.",
+          "approvedLines": [
+            [
+              "Step by step,",
+              "installation"
+            ],
+            [
+              "Pump room,",
+              "taking shape"
+            ]
+          ],
+          "cleanCrops": [
+            [
+              480,
+              613,
+              0,
+              120
+            ]
+          ]
         }
       }
     }

@@ -1,0 +1,13 @@
+{
+  "slot": "2026-10-26-pump-room-installation-behind-scenes",
+  "theme": "Pump room installation, behind the scenes — genuine in-progress project footage",
+  "assetId": "asz-pump-room-setup-2026-10-25-install",
+  "speed": 0.85,
+  "caption": "A fire pump room going in — new installation work in progress.\n\nThis reel shows genuine ASZ project footage from an ongoing site. The system shown is not yet tested, commissioned, handed over, or certified compliant.\n\nPlanning a fire pump installation for your property? See our project work at assafetyzone.com/projects.html.\n\n#FirePumpInstallation #FireSafety #Mumbai",
+  "shots": [
+    {"scene": "pump-install-team", "start": 0.2, "duration": 3.3, "crop": [480, 613, 0, 150], "lines": ["New pump,", "going in"]},
+    {"scene": "pump-install-team", "start": 3.7, "duration": 3.4, "crop": [480, 613, 0, 150], "lines": ["Team at work,", "pump room"]},
+    {"scene": "overhead-pipework-pan", "start": 8.3, "duration": 4.5, "crop": [480, 613, 0, 120], "lines": ["Step by step,", "installation"]},
+    {"scene": "overhead-pipework-pan", "start": 16.0, "duration": 5.0, "crop": [480, 613, 0, 120], "lines": ["Pump room,", "taking shape"]}
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "rendererVersion": "1.0.1",
+  "campaignId": "2026-10-26-pump-room-installation-behind-scenes",
+  "contentFingerprint": "e5cd1c95475cc1f4a902c2888222aabc90a4776cef552127fd24321684cca592",
+  "mechanicalPass": true,
+  "publicationReady": false,
+  "needs": "Claude must visually inspect contact sheet, cover, and audio, then write the independent review and run gate",
+  "paths": {
+    "video": "reels/2026-10-26-pump-room-installation-behind-scenes.mp4",
+    "cover": "covers/2026-10-26-pump-room-installation-behind-scenes.jpg",
+    "contactSheet": "studio/qa/2026-10-26-pump-room-installation-behind-scenes-contact.jpg",
+    "qa": "studio/qa/2026-10-26-pump-room-installation-behind-scenes.json"
+  },
+  "videoSha256": "6e0c43be699164cfb9dfee861f9e845163b384591dce360cd3559bcb4be006ed",
+  "coverSha256": "deeb169e81cb9bb57e2fbb76f255b2802c19123b49d739f10469dec27e1ae2bd",
+  "source": "inbox/da7e8d22-211a-4c58-a02e-a8e0c5f6471d.mov",
+  "sourceType": "owner-original",
+  "rights": "New owner-supplied ASZ project footage, submitted via the asz-reels inbox drop-folder on 25 Oct 2026 ('Saved new video for pump room setup'). Not previously used. Owner confirmed (25 Oct 2026) that showing ASZ technicians' faces on screen is acceptable — no blur/crop required for faces.",
+  "audio": "Original source location audio; tempo-adjusted, levelled, limited",
+  "shotToCaptionMap": [
+    {
+      "visibleAction": "Team fitting the red fire-pump unit and connecting pipework; faces visible (owner-approved 25 Oct 2026). CORRECTED 26 Oct 2026 after frame-by-frame independent re-review: the team is only actually in frame from 0.0 to approximately 7.3s -- the camera pans up and away from the people by ~7.4-7.9s, not at 16.0s as a prior pass mislabelled. End trimmed to 7.2s for a clean margin before the pan transition blur.",
+      "scene": "pump-install-team",
+      "start": 0.2,
+      "duration": 3.3,
+      "crop": [
+        480,
+        613,
+        0,
+        150
+      ],
+      "lines": [
+        "New pump,",
+        "going in"
+      ]
+    },
+    {
+      "visibleAction": "Team fitting the red fire-pump unit and connecting pipework; faces visible (owner-approved 25 Oct 2026). CORRECTED 26 Oct 2026 after frame-by-frame independent re-review: the team is only actually in frame from 0.0 to approximately 7.3s -- the camera pans up and away from the people by ~7.4-7.9s, not at 16.0s as a prior pass mislabelled. End trimmed to 7.2s for a clean margin before the pan transition blur.",
+      "scene": "pump-install-team",
+      "start": 3.7,
+      "duration": 3.4,
+      "crop": [
+        480,
+        613,
+        0,
+        150
+      ],
+      "lines": [
+        "Team at work,",
+        "pump room"
+      ]
+    },
+    {
+      "visibleAction": "Camera pans up to overhead pipework at a wall corner and then holds a largely static frame on it with scaffolding below, no people. CORRECTED 26 Oct 2026: this scene actually starts around 7.4-8.0s (not 16.0s as previously catalogued) and the pan itself settles into a near-static hold for most of its remaining length -- two shots drawn from it will look similar because that is genuinely what the footage shows, not a copy-paste error.",
+      "scene": "overhead-pipework-pan",
+      "start": 8.3,
+      "duration": 4.5,
+      "crop": [
+        480,
+        613,
+        0,
+        120
+      ],
+      "lines": [
+        "Step by step,",
+        "installation"
+      ]
+    },
+    {
+      "visibleAction": "Camera pans up to overhead pipework at a wall corner and then holds a largely static frame on it with scaffolding below, no people. CORRECTED 26 Oct 2026: this scene actually starts around 7.4-8.0s (not 16.0s as previously catalogued) and the pan itself settles into a near-static hold for most of its remaining length -- two shots drawn from it will look similar because that is genuinely what the footage shows, not a copy-paste error.",
+      "scene": "overhead-pipework-pan",
+      "start": 16.0,
+      "duration": 5.0,
+      "crop": [
+        480,
+        613,
+        0,
+        120
+      ],
+      "lines": [
+        "Pump room,",
+        "taking shape"
+      ]
+    }
+  ],
+  "evidence": {
+    "duration": 19.03,
+    "sizeBytes": 9182354,
+    "meanAudioDb": -24.1,
+    "peakAudioDb": -7.1,
+    "sampleTimes": [
+      0.0,
+      0.12,
+      1.9411764705882353,
+      3.7623529411764705,
+      4.00235294117647,
+      5.882352941176471,
+      7.762352941176471,
+      8.00235294117647,
+      10.529411764705882,
+      13.056470588235294,
+      13.296470588235293,
+      16.11764705882353,
+      18.73,
+      18.73
+    ],
+    "imageLuma": [
+      102.3,
+      101.9,
+      115.2,
+      114.7,
+      107.5,
+      116.3,
+      118.9,
+      121.8,
+      112.2,
+      141.2,
+      146.6,
+      132.3,
+      136.6,
+      136.6
+    ],
+    "motionDifference": [
+      43.56,
+      41.1,
+      63.74,
+      22.92
+    ],
+    "decodedCompletely": true,
+    "blackIntervals": 0
+  }
+}

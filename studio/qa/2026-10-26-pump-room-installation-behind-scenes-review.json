@@ -1,0 +1,27 @@
+{
+  "reviewer": "Claude Instagram Reels Studio (owner-directed resumed commissioning run, 26 Oct 2026)",
+  "reviewedAt": "2026-10-26T15:55:16.643Z",
+  "reviewedAtSource": "actual clock (date -u), read immediately before writing this review",
+  "campaignId": "2026-10-26-pump-room-installation-behind-scenes",
+  "videoSha256": "6e0c43be699164cfb9dfee861f9e845163b384591dce360cd3559bcb4be006ed",
+  "coverSha256": "deeb169e81cb9bb57e2fbb76f255b2802c19123b49d739f10469dec27e1ae2bd",
+  "contentFingerprint": "e5cd1c95475cc1f4a902c2888222aabc90a4776cef552127fd24321684cca592",
+  "observations": [
+    "Shot 1 (0.00-0.12s sampled, 'New pump, going in'): real ASZ technicians fitting the red fire-pump unit at a pipe joint, faces visible (owner-approved 25 Oct 2026), audible on-site sound. Matches the caption and visible action truthfully; no false claim of a finished or tested system.",
+    "Shot 2 (1.94-3.76s sampled, 'Team at work, pump room'): same team continuing to work on the fitting, one additional person partially in frame at left edge. Matches caption; framing is clean with no visible old branding/captions from any prior edit.",
+    "Shot 3 (4.00-7.76s sampled, 'Step by step, installation' and transition to pan): covers the end of the team's visible work and the camera's genuine pan up and away from the people toward the overhead pipe corner by ~7.4-8.0s. I independently re-timed this boundary (the asset library previously, incorrectly, carried this scene as extending to 16.0s; corrected to 7.2s/8.0s this run after frame-by-frame inspection) -- the manifest's shot timings were built against the corrected boundary, so the rendered shot genuinely matches 'installation' work, not an unrelated static pipe shot mislabelled as people-work.",
+    "Shot 4 (8.00-18.73s sampled, two 'Step by step, installation' / 'Pump room, taking shape' shots): overhead galvanized pipework at a wall corner with scaffolding below, no people, no client name/address/signage visible anywhere in the sampled frames. This is a genuinely static-leaning hold in the source footage (confirmed by direct frame inspection at 1s increments through the full clip), not a rendering fault; the two shots from this scene look similar because that is what the camera actually recorded. The final shot carries the 'assafetyzone.com' CTA text per the standard last-shot template."
+  ],
+  "historyEvidence": "Checked marketing/publication-log.json (anil-mourya/asz-reels@main, local clone at commit 597b44390476d39e18efa7b453f8396d87844299) before rendering: the only entry is the already-posted 2026-10-24 commissioning reel (mediaId 18133088551684000); no entry exists for this slot or for a pump-room-installation story. Checked queue/ and studio/manifests/ for the same reason: only the 2026-10-12 and 2026-10-24 slots exist. No prior render, reservation, or publish attempt exists for this exact edit (content fingerprint e5cd1c9...cca592 is new); this is not a repost.",
+  "checks": {
+    "footage_matches_copy": true,
+    "single_clean_logo": true,
+    "captions_readable": true,
+    "no_old_overlays": true,
+    "audio_appropriate": true,
+    "cover_matches_video": true,
+    "no_false_claims": true,
+    "history_checked": true
+  },
+  "notes": "Caption and brief explicitly state the system shown is not yet tested, commissioned, handed over, or certified compliant -- this is deliberate: the owner's instruction for this companion post was to present clearly in-progress work, never a completed/safe/compliant claim. No AMC, inspection, testing, or maintenance claim is made anywhere in the caption or on-screen text; this is an installation story, kept editorially separate from the AMC-proof campaign per the standing rule against relabelling installation footage as AMC/inspection/maintenance work."
+}
