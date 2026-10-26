@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-10-26",
   "timezone": "Asia/Kolkata",
   "mirrorNote": "This file is a sanitized, NON-AUTHORITATIVE derived mirror for legacy public readers. The canonical plan is PRIVATE anil-mourya/asfinance-app, branch marketing-analytics-state, marketing/weekly-plan.json. Only generic intent, landing page, audience, creative briefs, CTA and confirmed public post details are mirrored here; never private metrics, queries, audience data or credentials.",
   "completedOutOfCycleRuns": [
@@ -28,7 +28,7 @@
   },
   "weekStart": "2026-10-26",
   "campaignId": "asz-2026-10-26-amc-proof",
-  "status": "planned_assets_required",
+  "status": "in_progress_asset_gap",
   "audience": "Mumbai housing-society committee members and facility managers",
   "priorityService": "Fire AMC",
   "landingPage": "https://assafetyzone.com/fire-amc-services-mumbai.html",
@@ -64,8 +64,9 @@
       "theme": "Ask for the service record",
       "hook": "What did your last AMC visit cover?",
       "coverHeadline": "What did your AMC cover?",
-      "assetStatus": "needs_inventory_and_visual_audio_preparation",
-      "status": "brief"
+      "assetStatus": "blocked_no_eligible_footage",
+      "status": "blocked",
+      "note": "No eligible real AMC-visit footage was available by this slot's publish time (installation/fabrication footage is a different story and was correctly held for a separate post). Nothing was rendered, uploaded or published for this slot. Regular Mon/Wed/Fri schedule and r2/r3 below are unaffected and will be checked independently."
     },
     {
       "campaignId": "asz-2026-10-26-amc-proof-r2",
