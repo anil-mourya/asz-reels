@@ -1,8 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-10-30",
   "timezone": "Asia/Kolkata",
   "mirrorNote": "This file is a sanitized, NON-AUTHORITATIVE derived mirror for legacy public readers. The canonical plan is PRIVATE anil-mourya/asfinance-app, branch marketing-analytics-state, marketing/weekly-plan.json. Only generic intent, landing page, audience, creative briefs, CTA and confirmed public post details are mirrored here; never private metrics, queries, audience data or credentials.",
+  "sourcePlanRevision": 2,
   "completedOutOfCycleRuns": [
     {
       "date": "2026-10-24",
@@ -22,7 +23,7 @@
     "outcome": "blocked — no eligible new footage was found for this run (the archived pipework footage is exhausted and off-topic for the active campaign; other candidate files are text-card slideshows with no footage, or an unfinished placeholder render). No story was chosen, nothing was rendered, uploaded or published. The regular Mon/Wed/Fri schedule and the already-posted 24 Oct commissioning reel are unaffected.",
     "sourcePlanRevision": 2,
     "updatedAt": null,
-    "updatedAtNote": "Not read from an actual clock when first written; it was an estimated/typed value (2026-10-25T12:58:00.000Z) and has been nulled. The verified git commit time that first wrote this block is 2026-10-25T12:53:29Z (commit 8ba5c8a3d73cd3c5c0dd19def0a5a4eae1b15ea3) - explicitly labelled as commit time, not event time.",
+    "updatedAtNote": "Not read from an actual clock when first written; it was an estimated/typed value and has been nulled. The verified git commit time that first wrote this block is 2026-10-25T12:53:29Z (commit 8ba5c8a3d73cd3c5c0dd19def0a5a4eae1b15ea3) - explicitly labelled as commit time, not event time.",
     "correctedAt": "2026-10-25T12:57:47.251Z",
     "correctedAtSource": "actual clock (date -u), read during a follow-up record-integrity pass; no new render, upload, publish, analytics re-pull, email, or notification was performed to make this correction"
   },
@@ -75,7 +76,8 @@
       "hook": "A service visit should leave clear answers.",
       "coverHeadline": "Inside an AMC visit",
       "assetStatus": "needs_inventory_and_visual_audio_preparation",
-      "status": "brief"
+      "status": "brief",
+      "note": "No brief, receipt or matching post found on record for this slot as of 30 Oct 2026 — appears to have been missed; flagged for visibility, not corrected by the 30 Oct run."
     },
     {
       "campaignId": "asz-2026-10-26-amc-proof-r3",
@@ -83,8 +85,9 @@
       "theme": "Compare AMC scope clearly",
       "hook": "Comparing AMC quotes? Compare the scope.",
       "coverHeadline": "Compare the AMC scope",
-      "assetStatus": "needs_inventory_and_visual_audio_preparation",
-      "status": "brief"
+      "assetStatus": "blocked_no_eligible_new_asset",
+      "status": "blocked",
+      "note": "No eligible real footage was supplied by the 08:00 IST cutoff; the pipework archive and pump-room installation clips are off-topic/already used, every other library file is a plain text-card slideshow, and no video generator is connected. Nothing was rendered, uploaded or published for this slot. A fresh, eligible source may resume this slot automatically."
     }
   ],
   "gbp": {
