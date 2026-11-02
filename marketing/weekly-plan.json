@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-11-02",
   "timezone": "Asia/Kolkata",
   "mirrorNote": "This file is a sanitized, NON-AUTHORITATIVE derived mirror for legacy public readers. The canonical plan is PRIVATE anil-mourya/asfinance-app, branch marketing-analytics-state, marketing/weekly-plan.json. Only generic intent, landing page, audience, creative briefs, CTA and confirmed public post details are mirrored here; never private metrics, queries, audience data or credentials.",
-  "sourcePlanRevision": 2,
+  "sourcePlanRevision": 3,
   "completedOutOfCycleRuns": [
     {
       "date": "2026-10-24",
@@ -13,7 +13,7 @@
       "archiveReuse": "Reused the 11 Oct 2026 reel's source clip (reels/2026-10-11-rajhans-malad-west.mp4) with a new 4-shot edit, new story/copy and new cover; labelled on-screen and in the caption as previously recorded ASZ footage, never implied as a new job or fresh visit.",
       "result": "Posted — https://www.instagram.com/reel/De4jHXrDIGH/ (mediaId 18133088551684000)",
       "learning": "This is a one-time commissioning edit, not a repeatable template — do not reuse this exact edit again.",
-      "nextAction": "Future slots (including the week-of-26-Oct AMC-proof campaign below) need genuinely new supported footage or a new approved story; do not recycle this commissioning edit."
+      "nextAction": "Future slots need genuinely new supported footage or a new approved story; do not recycle this commissioning edit."
     }
   ],
   "lastCoordinationTest": {
@@ -27,13 +27,30 @@
     "correctedAt": "2026-10-25T12:57:47.251Z",
     "correctedAtSource": "actual clock (date -u), read during a follow-up record-integrity pass; no new render, upload, publish, analytics re-pull, email, or notification was performed to make this correction"
   },
-  "weekStart": "2026-10-26",
-  "campaignId": "asz-2026-10-26-amc-proof",
+  "priorWeeks": [
+    {
+      "weekStart": "2026-10-26",
+      "campaignId": "asz-2026-10-26-amc-proof",
+      "priorityService": "Fire AMC",
+      "landingPage": "https://assafetyzone.com/fire-amc-services-mumbai.html",
+      "finalStatus": "cycle_closed_no_publication",
+      "closedAt": "2026-11-01T03:48:35.000Z",
+      "reelsFinal": [
+        { "campaignId": "asz-2026-10-26-amc-proof-r1", "slot": "2026-10-26T08:24:00+05:30", "theme": "Ask for the service record", "finalStatus": "blocked", "exactBlocker": "blocked_no_eligible_new_asset — no real, owner-authorized footage of an AMC service-record review existed in the asz-reels inventory by the cutoff" },
+        { "campaignId": "asz-2026-10-26-amc-proof-r2", "slot": "2026-10-28T08:24:00+05:30", "theme": "A professional visit, behind the scenes", "finalStatus": "missed_slot_unactioned", "note": "No brief, no receipt and no matching post exist for this slot in either repository or the live Instagram history." },
+        { "campaignId": "asz-2026-10-26-amc-proof-r3", "slot": "2026-10-30T08:24:00+05:30", "theme": "Compare AMC scope clearly", "finalStatus": "blocked", "exactBlocker": "blocked_no_eligible_new_asset — no real, owner-authorized footage of an AMC scope comparison existed in the asz-reels inventory by the cutoff" }
+      ],
+      "gbpFinal": { "angle": "Documented maintenance and clear service scope", "finalStatus": "draft_required" },
+      "websiteFinal": { "action": "Review existing Fire AMC page for clearer scope, verified evidence and enquiry journey", "finalStatus": "proposed_not_applied" }
+    }
+  ],
+  "weekStart": "2026-11-01",
+  "campaignId": "asz-2026-11-02-form-b-compliance",
   "status": "in_progress_asset_gap",
   "audience": "Mumbai housing-society committee members and facility managers",
-  "priorityService": "Fire AMC",
-  "landingPage": "https://assafetyzone.com/fire-amc-services-mumbai.html",
-  "customerQuestion": "What should a society receive from a professional fire AMC?",
+  "priorityService": "Fire NOC / Form B compliance support",
+  "landingPage": "https://assafetyzone.com/fire-compliance-b-form-support-mumbai.html",
+  "customerQuestion": "What does a society actually need to do to stay compliant with Form B / fire NOC renewal?",
   "owners": {
     "productionAndInstagram": "Claude Instagram Reels Studio v3",
     "search": "Claude SEO Manager",
@@ -47,11 +64,12 @@
     "fallback": "Claude completes planning independently if Grok brief is unavailable"
   },
   "evidenceLinks": [
-    "https://assafetyzone.com/fire-amc-services-mumbai.html",
+    "https://assafetyzone.com/fire-compliance-b-form-support-mumbai.html",
+    "https://assafetyzone.com/form-b-checklist-mumbai.html",
     "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
     "https://support.google.com/business/answer/7091"
   ],
-  "cta": "DM AMC for a discussion about your building's maintenance needs",
+  "cta": "DM for help with your society's Form B / fire NOC renewal",
   "creativeStandard": {
     "format": "1080x1920,18-35s,meaningful visual motion,audible authorized audio,subtitles,original logo every frame",
     "prohibitedFallback": "Plain gradient/text-card slideshow or silent AAC stream",
@@ -60,51 +78,49 @@
   },
   "reels": [
     {
-      "campaignId": "asz-2026-10-26-amc-proof-r1",
-      "slot": "2026-10-26T08:24:00+05:30",
-      "theme": "Ask for the service record",
-      "hook": "What did your last AMC visit cover?",
-      "coverHeadline": "What did your AMC cover?",
-      "assetStatus": "blocked_no_eligible_footage",
-      "status": "blocked",
-      "note": "No eligible real AMC-visit footage was available by this slot's publish time (installation/fabrication footage is a different story and was correctly held for a separate post). Nothing was rendered, uploaded or published for this slot. Regular Mon/Wed/Fri schedule and r2/r3 below are unaffected and will be checked independently."
-    },
-    {
-      "campaignId": "asz-2026-10-26-amc-proof-r2",
-      "slot": "2026-10-28T08:24:00+05:30",
-      "theme": "A professional visit, behind the scenes",
-      "hook": "A service visit should leave clear answers.",
-      "coverHeadline": "Inside an AMC visit",
-      "assetStatus": "needs_inventory_and_visual_audio_preparation",
-      "status": "brief",
-      "note": "No brief, receipt or matching post found on record for this slot as of 30 Oct 2026 — appears to have been missed; flagged for visibility, not corrected by the 30 Oct run."
-    },
-    {
-      "campaignId": "asz-2026-10-26-amc-proof-r3",
-      "slot": "2026-10-30T08:24:00+05:30",
-      "theme": "Compare AMC scope clearly",
-      "hook": "Comparing AMC quotes? Compare the scope.",
-      "coverHeadline": "Compare the AMC scope",
+      "campaignId": "asz-2026-11-02-form-b-compliance-r1",
+      "slot": "2026-11-02T08:24:00+05:30",
+      "theme": "What Form B actually requires",
+      "hook": "Does your society know what Form B covers?",
+      "coverHeadline": "What Form B covers",
       "assetStatus": "blocked_no_eligible_new_asset",
       "status": "blocked",
-      "note": "No eligible real footage was supplied by the 08:00 IST cutoff; the pipework archive and pump-room installation clips are off-topic/already used, every other library file is a plain text-card slideshow, and no video generator is connected. Nothing was rendered, uploaded or published for this slot. A fresh, eligible source may resume this slot automatically."
+      "note": "No eligible real footage of a Form-B document walkthrough was available by this slot's publish time (the prior same-topic reel is a text-card slideshow; pump-room installation clips are off-topic and/or already used). Nothing was rendered, uploaded or published for this slot. A fresh, eligible source may resume this slot automatically."
+    },
+    {
+      "campaignId": "asz-2026-11-02-form-b-compliance-r2",
+      "slot": "2026-11-04T08:24:00+05:30",
+      "theme": "The documentation a society should keep on file",
+      "hook": "Can you lay your hands on your fire NOC paperwork today?",
+      "coverHeadline": "Keep this paperwork ready",
+      "assetStatus": "needs_inventory_and_visual_audio_preparation",
+      "status": "brief"
+    },
+    {
+      "campaignId": "asz-2026-11-02-form-b-compliance-r3",
+      "slot": "2026-11-06T08:24:00+05:30",
+      "theme": "Don't wait for a reminder from the authority",
+      "hook": "A compliance reminder shouldn't be the first time you check.",
+      "coverHeadline": "Stay ahead of renewal",
+      "assetStatus": "needs_inventory_and_visual_audio_preparation",
+      "status": "brief"
     }
   ],
   "gbp": {
-    "campaignId": "asz-2026-10-26-amc-proof-gbp",
-    "angle": "Documented maintenance and clear service scope",
-    "imageBrief": "Original authorized technician/equipment photograph with clean logo and restrained headline; no client identifiers",
+    "campaignId": "asz-2026-11-02-form-b-compliance-gbp",
+    "angle": "Form B / NOC compliance support for housing societies",
+    "imageBrief": "Original authorized technician/equipment or documentation photograph with clean logo and restrained headline; no client identifiers",
     "status": "draft_required"
   },
   "website": {
     "owner": "Claude SEO Manager",
-    "action": "Review existing Fire AMC page for clearer scope, verified evidence and enquiry journey",
+    "action": "Propose a title/meta rewrite for fire-compliance-b-form-support-mumbai.html to improve CTR at its current favorable ranking position",
     "status": "proposed_not_applied"
   },
   "measurement": {
-    "hypothesis": "A visual explanation of service documentation and scope will produce more qualified AMC enquiries than caption-card-only reels.",
-    "primary": "Qualified enquiries by Instagram/GBP/website and campaign keyword",
-    "baseline": "not yet retrieved",
-    "rule": "Do not invent unavailable metrics or equate WebSearch result order with Google ranking."
+    "hypothesis": "A title/meta rewrite naming the specific action (Form B renewal) and a concrete benefit (documentation help) may lift click-through on the Form B landing page at its current page-one-adjacent ranking position, without a claimed ranking improvement.",
+    "primary": "Search Console CTR and clicks on the Form B landing page over a complete post-publish window, compared against the pre-change baseline recorded at publish time",
+    "secondary": ["Qualified AMC/Form-B enquiries by Instagram/GBP/website and campaign keyword", "7-day reel reach/watch-time/saves/shares where available", "GBP calls and website actions where available"],
+    "rule": "Do not invent unavailable metrics or equate WebSearch result order with Google ranking. Do not claim a ranking improvement from any CTR-only change."
   }
 }
