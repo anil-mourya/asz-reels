@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-05",
   "timezone": "Asia/Kolkata",
   "mirrorNote": "This file is a sanitized, NON-AUTHORITATIVE derived mirror for legacy public readers. The canonical plan is PRIVATE anil-mourya/asfinance-app, branch marketing-analytics-state, marketing/weekly-plan.json. Only generic intent, landing page, audience, creative briefs, CTA and confirmed public post details are mirrored here; never private metrics, queries, audience data or credentials.",
   "sourcePlanRevision": 3,
@@ -103,8 +103,9 @@
       "theme": "Don't wait for a reminder from the authority",
       "hook": "A compliance reminder shouldn't be the first time you check.",
       "coverHeadline": "Stay ahead of renewal",
-      "assetStatus": "needs_inventory_and_visual_audio_preparation",
-      "status": "brief"
+      "assetStatus": "blocked_no_eligible_new_asset",
+      "status": "blocked",
+      "note": "No eligible real footage of a renewal-tracking habit (a calendar/checklist shot, a marking action, or a tie-back to real ASZ equipment) was available as of this evening's preflight (the prior same-topic-area reel is a text-card slideshow; pump-room installation clips are off-topic and/or already used; no video generator is connected, and the renderer has no tested path for the plan's suggested illustrative calendar graphic). Nothing has been rendered, uploaded or published for this slot. A fresh, eligible source may resume this slot automatically before the 08:24 IST cutoff."
     }
   ],
   "gbp": {
