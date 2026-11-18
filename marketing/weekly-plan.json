@@ -1,1 +1,175 @@
-SEE_LOCAL_FILE
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-18",
+  "timezone": "Asia/Kolkata",
+  "mirrorNote": "This file is a sanitized, NON-AUTHORITATIVE derived mirror for legacy public readers. The canonical plan is PRIVATE anil-mourya/asfinance-app, branch marketing-analytics-state, marketing/weekly-plan.json. Only generic intent, landing page, audience, creative briefs, CTA and confirmed public post details are mirrored here; never private metrics, queries, audience data or credentials.",
+  "sourcePlanRevision": 5,
+  "completedOutOfCycleRuns": [
+    {
+      "date": "2026-10-24",
+      "type": "owner-commissioned one-off, not part of a weekly campaign",
+      "campaignId": "2026-10-24-fire-piping-behind-scenes",
+      "theme": "Fire piping, behind the scenes — archival Rajhans Malad West pipework footage, re-edited",
+      "archiveReuse": "Reused the 11 Oct 2026 reel's source clip (reels/2026-10-11-rajhans-malad-west.mp4) with a new 4-shot edit, new story/copy and new cover; labelled on-screen and in the caption as previously recorded ASZ footage, never implied as a new job or fresh visit.",
+      "result": "Posted — https://www.instagram.com/reel/De4jHXrDIGH/ (mediaId 18133088551684000)",
+      "learning": "This is a one-time commissioning edit, not a repeatable template — do not reuse this exact edit again.",
+      "nextAction": "Future slots need genuinely new supported footage or a new approved story; do not recycle this commissioning edit."
+    }
+  ],
+  "lastCoordinationTest": {
+    "runId": "asz-shared-campaign-2026-10-25",
+    "date": "2026-10-25",
+    "type": "owner-authorized, one-off, out-of-cycle shared SEO/Reels coordination test — separate from the weekly campaign below",
+    "outcome": "blocked — no eligible new footage was found for this run (the archived pipework footage is exhausted and off-topic for the active campaign; other candidate files are text-card slideshows with no footage, or an unfinished placeholder render). No story was chosen, nothing was rendered, uploaded or published. The regular Mon/Wed/Fri schedule and the already-posted 24 Oct commissioning reel are unaffected.",
+    "sourcePlanRevision": 2,
+    "updatedAt": null,
+    "updatedAtNote": "Not read from an actual clock when first written; it was an estimated/typed value and has been nulled. The verified git commit time that first wrote this block is 2026-10-25T12:53:29Z (commit 8ba5c8a3d73cd3c5c0dd19def0a5a4eae1b15ea3) - explicitly labelled as commit time, not event time.",
+    "correctedAt": "2026-10-25T12:57:47.251Z",
+    "correctedAtSource": "actual clock (date -u), read during a follow-up record-integrity pass; no new render, upload, publish, analytics re-pull, email, or notification was performed to make this correction"
+  },
+  "priorWeeks": [
+    {
+      "weekStart": "2026-10-26",
+      "campaignId": "asz-2026-10-26-amc-proof",
+      "priorityService": "Fire AMC",
+      "landingPage": "https://assafetyzone.com/fire-amc-services-mumbai.html",
+      "finalStatus": "cycle_closed_no_publication",
+      "closedAt": "2026-11-01T03:48:35.000Z",
+      "reelsFinal": [
+        { "campaignId": "asz-2026-10-26-amc-proof-r1", "slot": "2026-10-26T08:24:00+05:30", "theme": "Ask for the service record", "finalStatus": "blocked", "exactBlocker": "blocked_no_eligible_new_asset — no real, owner-authorized footage of an AMC service-record review existed in the asz-reels inventory by the cutoff" },
+        { "campaignId": "asz-2026-10-26-amc-proof-r2", "slot": "2026-10-28T08:24:00+05:30", "theme": "A professional visit, behind the scenes", "finalStatus": "missed_slot_unactioned", "note": "No brief, no receipt and no matching post exist for this slot in either repository or the live Instagram history." },
+        { "campaignId": "asz-2026-10-26-amc-proof-r3", "slot": "2026-10-30T08:24:00+05:30", "theme": "Compare AMC scope clearly", "finalStatus": "blocked", "exactBlocker": "blocked_no_eligible_new_asset — no real, owner-authorized footage of an AMC scope comparison existed in the asz-reels inventory by the cutoff" }
+      ],
+      "gbpFinal": { "angle": "Documented maintenance and clear service scope", "finalStatus": "draft_required" },
+      "websiteFinal": { "action": "Review existing Fire AMC page for clearer scope, verified evidence and enquiry journey", "finalStatus": "proposed_not_applied" }
+    },
+    {
+      "weekStart": "2026-11-01",
+      "campaignId": "asz-2026-11-02-form-b-compliance",
+      "priorityService": "Fire NOC / Form B compliance support",
+      "landingPage": "https://assafetyzone.com/fire-compliance-b-form-support-mumbai.html",
+      "finalStatus": "cycle_closed_no_publication",
+      "closedAt": "2026-11-08T03:43:28.000Z",
+      "reelsFinal": [
+        { "campaignId": "asz-2026-11-02-form-b-compliance-r1", "slot": "2026-11-02T08:24:00+05:30", "theme": "What Form B actually requires", "finalStatus": "blocked", "exactBlocker": "blocked_no_eligible_new_asset — no real, owner-authorized footage of a Form-B document walkthrough existed in the asz-reels inventory by the cutoff" },
+        { "campaignId": "asz-2026-11-02-form-b-compliance-r2", "slot": "2026-11-04T08:24:00+05:30", "theme": "The documentation a society should keep on file", "finalStatus": "blocked", "exactBlocker": "blocked_no_eligible_new_asset — no real, owner-authorized footage of a documentation/paperwork walkthrough or handover existed in the asz-reels inventory by the cutoff" },
+        { "campaignId": "asz-2026-11-02-form-b-compliance-r3", "slot": "2026-11-06T08:24:00+05:30", "theme": "Don't wait for a reminder from the authority", "finalStatus": "blocked", "exactBlocker": "blocked_no_eligible_new_asset — no real, owner-authorized footage of a renewal-tracking habit existed in the asz-reels inventory by the cutoff" }
+      ],
+      "gbpFinal": { "angle": "Form B / NOC compliance support for housing societies", "finalStatus": "draft_required" },
+      "websiteFinal": { "action": "Propose a title/meta rewrite for fire-compliance-b-form-support-mumbai.html to improve CTR", "finalStatus": "superseded_externally_edited", "note": "The connector needed to apply this stayed unavailable for the whole cycle; by the time it was available again, the page's live title/meta had already changed through a source outside this pipeline. The proposal is retired as moot, not applied." },
+      "openCoordinationGap": "Unresolved across the whole cycle: two live Instagram posts in this window (31 Oct and 1 Nov 2026) have no corresponding manifest/render/QA/reservation/publication-log entry visible to this pipeline. Flagged for the owner; not corrected here, since reconciling render/publish provenance is the Reels studio's own record to fix."
+    },
+    {
+      "weekStart": "2026-11-08",
+      "campaignId": "asz-2026-11-08-extinguisher-refilling",
+      "priorityService": "Fire extinguisher refilling",
+      "landingPage": "https://assafetyzone.com/fire-extinguisher-refilling-cost-mumbai.html",
+      "finalStatus": "cycle_closed_no_publication",
+      "closedAt": "2026-11-15T04:10:00.000Z",
+      "reelsFinal": [
+        { "campaignId": "asz-2026-11-08-extinguisher-refilling-r1", "slot": "2026-11-09T08:24:00+05:30", "theme": "What actually goes into a refill", "finalStatus": "missed_slot_unactioned", "note": "No brief, no receipt and no matching post exist for this slot in either repository as of the cycle close." },
+        { "campaignId": "asz-2026-11-08-extinguisher-refilling-r2", "slot": "2026-11-11T08:24:00+05:30", "theme": "Refilling near you, done right", "finalStatus": "missed_slot_unactioned", "note": "Same gap as r1 — no brief, no receipt, no matching post." },
+        { "campaignId": "asz-2026-11-08-extinguisher-refilling-r3", "slot": "2026-11-13T08:24:00+05:30", "theme": "Make refilling part of your compliance routine", "finalStatus": "missed_slot_unactioned", "note": "Same gap as r1/r2 — no brief, no receipt, no matching post." }
+      ],
+      "gbpFinal": { "angle": "Fire extinguisher refilling — cost, process and local service", "finalStatus": "draft_required" },
+      "websiteFinal": { "action": "Carried-forward title/meta proposal for a different page", "finalStatus": "superseded_externally_edited", "note": "The page's live title/meta had already changed through a source outside this pipeline by the time this was checked; the proposal is retired as moot." },
+      "openCoordinationGap": "Unresolved, carried forward again: the same two untracked 31 Oct / 1 Nov posts noted above still have no visible production record. New this week: all three regular reel slots (9/11/13 Nov) also have no visible brief/receipt/post — a second, larger instance of the same kind of gap."
+    }
+  ],
+  "weekStart": "2026-11-15",
+  "campaignId": "asz-2026-11-15-hydrant-sprinkler-alarm",
+  "status": "blocked_asset_gap",
+  "audience": "Mumbai housing-society committee members, facility managers and commercial/industrial premises planning or upgrading fire-protection systems",
+  "priorityService": "Fire hydrant, sprinkler and alarm system installation",
+  "landingPage": "https://assafetyzone.com/fire-hydrant-system-mumbai",
+  "customerQuestion": "What's actually involved in getting a hydrant, sprinkler or fire-alarm system installed and compliant for a Mumbai building, and who do you call to do it properly?",
+  "owners": {
+    "productionAndInstagram": "Claude Instagram Reels Studio v3",
+    "search": "Claude SEO Manager",
+    "gbp": "Claude Weekly gbp post",
+    "visualPreparation": "Claude Reel footage check",
+    "optionalResearch": "Grok ASZ Chief Marketing Officer"
+  },
+  "handoff": {
+    "sourceOfTruth": "PRIVATE anil-mourya/asfinance-app, branch marketing-analytics-state, marketing/weekly-plan.json. This file is a derived mirror.",
+    "grokAccess": "unverified",
+    "fallback": "Claude completes planning independently if Grok brief is unavailable"
+  },
+  "evidenceLinks": [
+    "https://assafetyzone.com/fire-hydrant-system-mumbai",
+    "https://assafetyzone.com/fire-sprinkler-system-installation-mumbai.html",
+    "https://assafetyzone.com/fire-alarm-system-installation-mumbai.html",
+    "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "https://support.google.com/business/answer/7091"
+  ],
+  "cta": "DM or call for a hydrant/sprinkler/fire-alarm installation site inspection and quote",
+  "creativeStandard": {
+    "format": "1080x1920,18-35s,meaningful visual motion,audible authorized audio,subtitles,original logo every frame",
+    "prohibitedFallback": "Plain gradient/text-card slideshow or silent AAC stream",
+    "assets": "Real authorized ASZ footage preferred; approved licensed or labelled AI illustrative media otherwise",
+    "qa": "Review actual first/middle/last and scene-boundary frames, cover, audio, provenance and date accuracy before publishing"
+  },
+  "reels": [
+    {
+      "campaignId": "asz-2026-11-15-hydrant-sprinkler-alarm-r1",
+      "slot": "2026-11-16T08:24:00+05:30",
+      "theme": "What a proper hydrant/sprinkler installation actually involves",
+      "coverHeadline": "What a real installation involves",
+      "assetStatus": "blocked_no_eligible_new_asset",
+      "status": "blocked",
+      "note": "No eligible real footage of hydrant/sprinkler piping, valve work, pressure testing or a technician installing/testing such a system was available by this slot's publish time (this slot's publish time has already passed). Nothing was rendered, uploaded or published for this slot. A fresh, eligible source may resume this slot automatically."
+    },
+    {
+      "campaignId": "asz-2026-11-15-hydrant-sprinkler-alarm-r2",
+      "slot": "2026-11-18T08:24:00+05:30",
+      "theme": "Fire alarm systems, done right the first time",
+      "coverHeadline": "Alarm systems, installed right",
+      "assetStatus": "blocked_no_eligible_new_asset",
+      "status": "blocked",
+      "note": "No reviewed owner-authorized footage of a fire-alarm panel/detector installation, wiring, mounting or test/alert verification was available by this slot's publish time; a text-card/gradient substitute is explicitly prohibited as a fallback. Nothing was rendered, uploaded or published for this slot. A fresh, eligible source may resume this slot automatically."
+    },
+    {
+      "campaignId": "asz-2026-11-15-hydrant-sprinkler-alarm-r3",
+      "slot": "2026-11-20T08:24:00+05:30",
+      "theme": "One system, working together",
+      "coverHeadline": "One system, working together",
+      "assetStatus": "needs_inventory_and_visual_audio_preparation",
+      "status": "brief"
+    }
+  ],
+  "gbp": {
+    "campaignId": "asz-2026-11-15-hydrant-sprinkler-alarm-gbp",
+    "angle": "Fire hydrant, sprinkler and alarm installation — what's involved and local service",
+    "imageBrief": "Original authorized technician/installation photograph (hydrant, sprinkler or alarm work) with clean logo and restrained headline; no client identifiers",
+    "status": "draft_required"
+  },
+  "website": {
+    "owner": "Claude SEO Manager",
+    "action": "No write performed this cycle. A previously carried-forward candidate page was found, on a fresh check, to already carry a revised title and meta description from a source outside this pipeline; that proposal is retired as moot.",
+    "candidatePageConsidered": "https://assafetyzone.com/fire-amc-cost-mumbai.html",
+    "status": "no_change_this_cycle"
+  },
+  "measurement": {
+    "hypothesis": "This week's campaign targets a genuine, previously unaddressed query gap around hydrant/sprinkler/alarm installation content. No page-level website change is proposed this cycle.",
+    "rule": "Do not invent unavailable metrics or equate WebSearch result order with Google ranking. Do not claim a ranking improvement from any CTR-only change."
+  },
+  "planRevision": 5,
+  "coordinationSchemaVersion": 1,
+  "storage": {
+    "canonicalRepository": "anil-mourya/asfinance-app",
+    "canonicalBranch": "marketing-analytics-state",
+    "canonicalPath": "marketing/weekly-plan.json",
+    "publicMediaRepository": "anil-mourya/asz-reels",
+    "publicMediaBranch": "main",
+    "publicMirrorPath": "marketing/weekly-plan.json",
+    "privacy": "Private analytics remain on the private branch; only sanitized campaign briefs and public publication metadata may be mirrored."
+  },
+  "integrationTest": {
+    "runId": "asz-shared-campaign-2026-10-25",
+    "status": "blocked_no_eligible_asset",
+    "scope": "One authorized out-of-cycle complete coordination/reel run (historical; not repeated or re-run this week).",
+    "receiptPath": "marketing/handoffs/asz-shared-campaign-2026-10-25/reels.json",
+    "briefPath": "marketing/briefs/asz-shared-campaign-2026-10-25.json",
+    "note": "Preserved unchanged from the prior planRevision as the historical record of this one-off test; see lastSeoAction/lastReelsAction/lastSeoAcknowledgement in planRevision 2 of this file's git history for full detail."
+  }
+}
